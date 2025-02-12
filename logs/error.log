@@ -1,0 +1,557 @@
+[2025-01-29 11:37:29] Error: ErrorException: Trying to access array offset on value of type bool in C:\Storage\prj\LabConnect\labConnect\bootstrap.php on line 18
+[2025-01-29 11:38:31] Error: ErrorException: Trying to access array offset on value of type bool in C:\Storage\prj\LabConnect\labConnect\bootstrap.php on line 18
+[2025-01-29 11:39:13] Error: ErrorException: Trying to access array offset on value of type bool in C:\Storage\prj\LabConnect\labConnect\bootstrap.php on line 18
+[2025-01-29 11:40:20] Error: PDOException: SQLSTATE[HY000]: General error: 1 table users already exists in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-01-29 11:47:12] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 8
+[2025-01-29 11:48:45] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:49:03] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:50:23] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:50:40] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:50:54] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:51:07] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:51:58] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:53:17] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:53:36] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:54:59] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:55:08] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:55:09] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:55:09] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:55:16] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:55:26] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 11:56:26] Error: Exception: this happened on this web! in C:\Storage\prj\LabConnect\labConnect\app\Controllers\HomeController.php on line 9
+[2025-01-29 12:24:45] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\LabConnect\labConnect\bin\schema_fixtures.php on line 29
+[2025-01-29 12:26:05] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\bin\schema_fixtures.php on line 29
+[2025-01-29 12:26:22] Error: TypeError: Core\Database::fetch(): Return value must be of type array, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 46
+[2025-01-29 12:26:51] Error: TypeError: Core\Model::create(): Argument #1 ($data) must be of type array, string given, called in C:\Storage\prj\LabConnect\labConnect\bin\schema_fixtures.php on line 27 in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 19
+[2025-01-29 12:27:25] Error: TypeError: Core\Database::fetch(): Return value must be of type array, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 46
+[2025-01-29 12:29:01] Error: TypeError: Core\Database::fetch(): Return value must be of type array, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 46
+[2025-01-29 12:29:55] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 12:30:48] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 12:37:51] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 12:40:44] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 12:43:27] Error: TypeError: Core\Model::create(): Return value must be of type App\Models\User, null returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 36
+[2025-01-29 12:46:14] Error: TypeError: Core\Model::create(): Return value must be of type App\Models\User, null returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 36
+[2025-01-29 12:48:12] Error: TypeError: Core\Model::create(): Return value must be of type App\Models\User, null returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 36
+[2025-01-29 12:49:49] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 12:51:27] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 17
+[2025-01-29 12:52:27] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 17
+[2025-01-29 12:53:50] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 17
+[2025-01-29 12:59:50] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-01-29 13:03:35] Error: ErrorException: PDOStatement::setFetchMode(): Passing null to parameter #1 ($mode) of type int is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 58
+[2025-01-29 13:04:16] Error: ErrorException: Attempt to read property "id" on array in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 47
+[2025-01-29 13:06:22] Error: ErrorException: Undefined array key "email" in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 47
+[2025-01-29 13:10:42] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 13:11:42] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 13:11:51] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 13:13:05] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 13:13:50] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 13:14:59] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\CategoryUser, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-29 13:16:34] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.cat_id in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-01-29 13:17:19] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.cat_id in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-01-29 14:04:29] Error: ErrorException: Attempt to read property "name" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 4
+[2025-01-29 14:09:14] Error: ErrorException: Attempt to read property "name" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 4
+[2025-01-29 14:09:15] Error: ErrorException: Attempt to read property "name" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 4
+[2025-01-29 14:09:16] Error: ErrorException: Attempt to read property "name" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 4
+[2025-01-29 14:09:17] Error: ErrorException: Attempt to read property "name" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 4
+[2025-01-29 14:12:13] Error: ErrorException: Attempt to read property "name" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 4
+[2025-01-29 14:12:13] Error: ErrorException: Attempt to read property "name" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 4
+[2025-01-29 14:13:22] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 2
+[2025-01-29 14:24:00] Error: Error: Call to undefined method Core\View::partial() in C:\Storage\prj\LabConnect\labConnect\helpers.php on line 7
+[2025-01-29 14:25:13] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views//partials/_post in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 20
+[2025-01-29 14:39:55] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/authorize/signIn/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 14:40:08] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/authorize/signIn/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 14:40:09] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/authorize/signIn/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 14:41:09] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/authorize/signUp/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 14:43:59] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/authorize/signUp/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 14:44:06] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/authorize/signUp/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 14:44:33] Error: ErrorException: Undefined array key "csrfToken" in C:\Storage\prj\LabConnect\labConnect\app\Views\user\authorize\signUp\index.php on line 6
+[2025-01-29 14:44:51] Error: ErrorException: Undefined array key "csrfToken" in C:\Storage\prj\LabConnect\labConnect\app\Views\user\authorize\signUp\index.php on line 6
+[2025-01-29 14:45:48] Error: ErrorException: require_once(C:\Storage\prj\LabConnect\labConnect\app\Views\user\authorize\signUp/../_flash.php): Failed to open stream: No such file or directory in C:\Storage\prj\LabConnect\labConnect\app\Views\user\authorize\signUp\index.php on line 31
+[2025-01-29 14:52:56] Error: ParseError: syntax error, unexpected token "\" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\UserController.php on line 23
+[2025-01-29 15:14:04] Error: TypeError: App\Services\Auth::attempt(): Return value must be of type bool, none returned in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 16
+[2025-01-29 15:16:16] Error: TypeError: App\Services\Auth::attempt(): Return value must be of type bool, none returned in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 16
+[2025-01-29 15:18:52] Error: ErrorException: Undefined property: App\Models\User::$password in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 11
+[2025-01-29 15:19:46] Error: ErrorException: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 12
+[2025-01-29 15:21:40] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/home/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 15:21:56] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views//partials/_post.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 15:22:05] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views//partials/_post.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-29 15:22:58] Error: ErrorException: Undefined array key "id" in C:\Storage\prj\LabConnect\labConnect\public\index.php on line 15
+[2025-01-29 15:23:00] Error: ErrorException: Undefined array key "id" in C:\Storage\prj\LabConnect\labConnect\public\index.php on line 15
+[2025-01-29 15:24:07] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views//partials/_post.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-30 07:02:16] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:02:17] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:04:04] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:04:06] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:04:11] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:08:00] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:08:52] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:08:54] Error: ErrorException: Undefined array key "user_id" in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 23
+[2025-01-30 07:18:34] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/errors/404.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-30 07:18:51] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/errors/404.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-30 07:19:44] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views//partials/_post.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-30 08:15:52] Error: PDOException: SQLSTATE[HY000]: General error: 1 table users already exists in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-01-30 08:31:57] Error: TypeError: App\Services\RememberMe::createToken(): Argument #1 ($userId) must be of type int, string given, called in C:\Storage\prj\LabConnect\labConnect\app\Services\Auth.php on line 18 in C:\Storage\prj\LabConnect\labConnect\app\Services\RememberMe.php on line 10
+[2025-01-30 13:27:53] Error: ErrorException: Undefined property: App\Models\User::$seo in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\admin\main.php on line 160
+[2025-01-30 13:38:44] Error: Exception: Method show tidak ditemukan di controller App\Controllers\UserController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-01-30 13:43:49] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\routes.php on line 21
+[2025-01-30 13:43:55] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\routes.php on line 21
+[2025-01-30 13:43:57] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\routes.php on line 21
+[2025-01-30 13:44:01] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\routes.php on line 21
+[2025-01-30 13:44:01] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\routes.php on line 21
+[2025-01-30 13:45:19] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:46:01] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:46:42] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:46:43] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:47:08] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:47:09] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:47:33] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:48:34] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:48:34] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:50:02] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\routes.php on line 21
+[2025-01-30 13:51:17] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:52:16] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:52:28] Error: Exception: Controller App\Controllers\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:52:50] Error: Exception: Controller App\Controllers\/user/LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:53:00] Error: Exception: Controller App\Controllers\user/LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:53:05] Error: Exception: Controller App\Controllers\user\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:54:04] Error: Exception: Controller App\Controllers\User\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:54:05] Error: Exception: Controller App\Controllers\User\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:54:05] Error: Exception: Controller App\Controllers\User\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:54:53] Error: ArgumentCountError: Too few arguments to function App\Controllers\LabolatoryController::labolatory(), 0 passed and exactly 1 expected in C:\Storage\prj\LabConnect\labConnect\app\Controllers\LabolatoryController.php on line 15
+[2025-01-30 13:55:10] Error: ErrorException: Undefined variable $user_seo in C:\Storage\prj\LabConnect\labConnect\app\Views\user\dashboard\index.php on line 14
+[2025-01-30 13:55:24] Error: ErrorException: Undefined variable $user_seo in C:\Storage\prj\LabConnect\labConnect\app\Views\user\dashboard\index.php on line 14
+[2025-01-30 13:56:51] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/labolatory/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-30 13:57:36] Error: Error: Unknown named parameter $user_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-01-30 13:58:57] Error: Exception: Controller App\Controllers\User/LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:59:08] Error: Exception: Controller App\Controllers\User\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 13:59:14] Error: Exception: Controller App\Controllers\\User\LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 14:00:09] Error: Exception: Controller App\Controllers\User/LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 14:00:19] Error: Exception: Controller App\Controllers\/User/LabolatoryController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-01-30 14:02:05] Error: ErrorException: Undefined variable $user_seo in C:\Storage\prj\LabConnect\labConnect\app\Views\user\labolatory\index.php on line 14
+[2025-01-30 16:16:11] Error: Error: Unknown named parameter $user_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-01-30 16:16:45] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/profile/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-30 16:54:20] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-30 16:54:50] Error: ErrorException: Creation of dynamic property App\Models\User::$mobile is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 53
+[2025-01-30 16:57:48] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-30 16:57:50] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-30 16:57:51] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-30 16:57:52] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-30 16:58:04] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-30 16:58:42] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 16
+[2025-01-30 18:06:26] Error: ErrorException: Undefined variable $nimRegistered in C:\Storage\prj\LabConnect\labConnect\app\Views\user\authorize\signUp\index.php on line 13
+[2025-01-30 18:10:53] Error: ErrorException: Undefined variable $nimRegistered in C:\Storage\prj\LabConnect\labConnect\app\Views\user\authorize\signUp\index.php on line 13
+[2025-01-31 03:54:24] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/u/dashboard/index.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-31 03:54:25] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/u/dashboard/index.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-01-31 05:16:44] Error: ErrorException: Undefined array key "nim" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 31
+[2025-01-31 05:17:24] Error: ErrorException: Undefined array key "avatar" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 34
+[2025-01-31 08:17:17] Error: ErrorException: Undefined array key "avatar" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 42
+[2025-01-31 08:21:18] Error: ErrorException: Undefined array key "avatar" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 34
+[2025-01-31 08:25:10] Error: ErrorException: Undefined array key "avatar" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 34
+[2025-01-31 08:36:41] Error: ErrorException: Undefined array key "avater" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 42
+[2025-01-31 08:36:56] Error: ErrorException: Undefined array key "avater" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 42
+[2025-01-31 08:40:18] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-01-31 09:01:57] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such column: image in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-01-31 17:13:55] Error: PDOException: SQLSTATE[HY000]: General error: 1 AUTOINCREMENT not allowed on WITHOUT ROWID tables in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-01-31 17:43:56] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:44:50] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:44:51] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:45:01] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:45:02] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:45:11] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:47:55] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:47:56] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:49:15] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-01-31 17:58:17] Error: Error: Unknown named parameter $user_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-01-31 17:58:50] Error: ErrorException: Undefined variable $user_seo in C:\Storage\prj\LabConnect\labConnect\app\Views\user\dashboard\index.php on line 14
+[2025-02-01 03:49:27] Error: ErrorException: Creation of dynamic property App\Models\User::$is_active is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 53
+[2025-02-01 03:55:23] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-01 03:55:27] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-01 04:09:53] Error: Exception: Method listLaboran tidak ditemukan di controller App\Controllers\User\LabolatoryController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-02 09:15:39] Error: Exception: Method listEquipment tidak ditemukan di controller App\Controllers\User\NewsController. in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\Router.php on line 129
+[2025-02-02 15:17:18] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-02 15:29:15] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\Model.php on line 50
+[2025-02-02 15:29:36] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\Model.php on line 50
+[2025-02-02 15:30:14] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\Model.php on line 50
+[2025-02-02 15:30:22] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\Model.php on line 50
+[2025-02-02 15:34:09] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\Model.php on line 50
+[2025-02-02 15:47:27] Error: RuntimeException: Error: Template file not found: C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung/app/Views/user/News/index.php.php in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\View.php on line 32
+[2025-02-02 15:48:59] Error: RuntimeException: Error: Template file not found: C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung/app/Views/user/News/index.php.php in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\View.php on line 32
+[2025-02-02 15:50:42] Error: RuntimeException: Error: Template file not found: C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung/app/Views/user/News/index.php.php in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\View.php on line 32
+[2025-02-02 15:50:46] Error: RuntimeException: Error: Template file not found: C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung/app/Views/user/News/index.php.php in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\View.php on line 32
+[2025-02-02 15:52:34] Error: RuntimeException: Error: Template file not found: C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung/app/Views/user/Lab/index.php.php in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\View.php on line 32
+[2025-02-02 15:53:11] Error: RuntimeException: Error: Template file not found: C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung/app/Views/user/Lab/index.php in C:\Users\fazah\Documents\Andi\lab\lab-connect-fisika-uin-bandung\core\View.php on line 32
+[2025-02-02 18:03:58] Error: ErrorException: Undefined variable $page in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\listLab\index.php on line 5
+[2025-02-02 18:04:18] Error: ErrorException: Undefined variable $listUser in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\listLab\index.php on line 28
+[2025-02-02 18:46:38] Error: ErrorException: Undefined array key "bio" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 40
+[2025-02-02 18:47:26] Error: ErrorException: Undefined array key "descLong" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\UserController.php on line 40
+[2025-02-02 19:18:38] Error: ErrorException: Undefined variable $status in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 45
+[2025-02-02 19:18:40] Error: ErrorException: Undefined variable $status in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 45
+[2025-02-02 19:31:57] Error: TypeError: Core\Database::fetchAll(): Argument #2 ($params) must be of type array, string given, called in C:\Storage\prj\LabConnect\labConnect\app\Models\Lab.php on line 25 in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 41
+[2025-02-02 19:35:11] Error: ErrorException: Undefined property: App\Models\Lab::$name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\listLab\index.php on line 32
+[2025-02-02 19:35:14] Error: ErrorException: Undefined property: App\Models\Lab::$name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\listLab\index.php on line 32
+[2025-02-02 19:58:39] Error: ErrorException: Undefined variable $name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 19
+[2025-02-02 19:59:21] Error: ErrorException: Undefined variable $name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 19
+[2025-02-02 19:59:24] Error: ErrorException: Undefined variable $name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 19
+[2025-02-02 20:01:24] Error: ErrorException: Undefined variable $name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 19
+[2025-02-02 20:01:31] Error: ErrorException: Undefined variable $name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 19
+[2025-02-02 20:01:32] Error: ErrorException: Undefined variable $name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 19
+[2025-02-02 20:01:33] Error: ErrorException: Undefined variable $name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 19
+[2025-02-02 20:29:31] Error: Error: Unknown named parameter $lab_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-02-02 20:33:54] Error: ParseError: syntax error, unexpected token ";" in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 28
+[2025-02-02 20:36:12] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 28
+[2025-02-02 20:36:17] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 28
+[2025-02-02 20:36:20] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 28
+[2025-02-02 20:59:08] Error: Error: Unknown named parameter $lab_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-02-02 21:00:47] Error: Error: Unknown named parameter $lab_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-02-02 21:01:22] Error: Error: Unknown named parameter $lab_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-02-02 21:02:44] Error: Error: Unknown named parameter $lab_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-02-02 21:04:00] Error: ErrorException: strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\LabController.php on line 171
+[2025-02-02 21:04:48] Error: ErrorException: strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\LabController.php on line 171
+[2025-02-02 21:16:31] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 52
+[2025-02-02 21:16:39] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\user\lab\detailLab\index.php on line 52
+[2025-02-02 21:18:11] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: labs.seo_lab in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-02-02 21:18:40] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: labs.seo_lab in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-02-02 21:24:22] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-03 14:53:49] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-03 15:14:41] Error: PDOException: SQLSTATE[HY000]: General error: 1 unrecognized token: "{" in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-03 15:15:14] Error: PDOException: SQLSTATE[HY000]: General error: 1 unrecognized token: "{" in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-03 15:36:10] Error: PDOException: SQLSTATE[HY000]: General error: 1 unknown column "equpment_id" in foreign key definition in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-03 15:42:38] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-03 15:49:49] Error: ErrorException: Undefined array key "lab_id" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentController.php on line 53
+[2025-02-03 16:21:52] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/submission/equipmentDetailReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-03 23:24:34] Error: ErrorException: Undefined variable $listLab in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 61
+[2025-02-04 00:20:23] Error: ErrorException: Undefined variable $listEquipments in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 88
+[2025-02-04 00:52:55] Error: ErrorException: Undefined variable $isApproved in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 180
+[2025-02-04 00:59:42] Error: ErrorException: Undefined property: App\Models\Lab::$name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 36
+[2025-02-04 01:33:04] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 123
+[2025-02-04 01:33:47] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 123
+[2025-02-04 01:33:51] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 123
+[2025-02-04 01:34:42] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 123
+[2025-02-04 01:59:40] Error: ErrorException: Undefined variable $user in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\labSubmissionController.php on line 39
+[2025-02-04 06:50:41] Error: ErrorException: Attempt to read property "avatar" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\user\main.php on line 151
+[2025-02-04 06:54:43] Error: ErrorException: Attempt to read property "avatar" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\user\main.php on line 151
+[2025-02-04 07:00:42] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-02-04 07:04:56] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-02-04 07:07:51] Error: Error: Object of class App\Models\User could not be converted to string in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 37
+[2025-02-04 07:09:25] Error: ErrorException: Creation of dynamic property App\Models\labReservation::$reservation_cancel is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 53
+[2025-02-04 07:10:37] Error: ErrorException: Creation of dynamic property App\Models\labReservation::$reservation_cancel is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 53
+[2025-02-04 17:47:20] Error: ErrorException: Undefined property: App\Models\labReservation::$status in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labReservation\index.php on line 51
+[2025-02-04 17:56:40] Error: ErrorException: Attempt to read property "lab_id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labReservation\index.php on line 39
+[2025-02-04 17:57:09] Error: ErrorException: Attempt to read property "lab_id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labReservation\index.php on line 39
+[2025-02-04 17:57:10] Error: ErrorException: Attempt to read property "lab_id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labReservation\index.php on line 39
+[2025-02-04 18:05:10] Error: ErrorException: DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labReservation\index.php on line 56
+[2025-02-04 18:06:05] Error: ErrorException: DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labReservation\index.php on line 58
+[2025-02-04 19:36:48] Error: Exception: Method editReservation tidak ditemukan di controller App\Controllers\User\labSubmissionController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-04 19:57:45] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 35
+[2025-02-04 20:09:52] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\submission\labDetailReservation\index.php on line 277
+[2025-02-04 20:57:17] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/submission/labReservation/index.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-04 21:07:36] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/approver/labReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-04 21:09:10] Error: ErrorException: Undefined property: App\Models\labReservation::$name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 38
+[2025-02-04 21:10:29] Error: ErrorException: Undefined property: App\Models\labReservation::$name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 38
+[2025-02-04 21:11:05] Error: ErrorException: Undefined variable $users in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 39
+[2025-02-04 21:11:44] Error: ErrorException: Attempt to read property "id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 40
+[2025-02-04 21:13:22] Error: ErrorException: Attempt to read property "id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 40
+[2025-02-04 21:13:33] Error: ErrorException: Attempt to read property "id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 40
+[2025-02-04 21:13:35] Error: ErrorException: Attempt to read property "id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 40
+[2025-02-04 21:13:52] Error: ErrorException: Attempt to read property "id" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labReservation\index.php on line 40
+[2025-02-04 21:16:56] Error: Exception: Method detailReservationLab tidak ditemukan di controller App\Controllers\User\ApproverController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-05 03:39:39] Error: ErrorException: Attempt to read property "user_id" on null in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\ApproverController.php on line 34
+[2025-02-05 03:40:27] Error: ErrorException: Attempt to read property "user_id" on null in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\ApproverController.php on line 34
+[2025-02-05 03:40:38] Error: ErrorException: Attempt to read property "user_id" on null in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\ApproverController.php on line 34
+[2025-02-05 07:31:31] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 223
+[2025-02-05 07:31:35] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 223
+[2025-02-05 07:31:36] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 223
+[2025-02-05 07:31:48] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 223
+[2025-02-05 07:31:49] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 223
+[2025-02-05 07:32:46] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 222
+[2025-02-05 07:33:11] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 222
+[2025-02-05 07:33:17] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 222
+[2025-02-05 10:00:10] Error: ErrorException: Undefined variable $reservation in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 68
+[2025-02-05 10:09:54] Error: ParseError: syntax error, unexpected token "endif", expecting end of file in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\labDetailReservation\index.php on line 119
+[2025-02-05 13:18:34] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:18:35] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:18:51] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:18:54] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:19:20] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:20:12] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:21:07] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:22:26] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:22:27] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:22:27] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-05 13:22:28] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\LabConnect\labConnect\core\Model.php on line 50
+[2025-02-07 23:08:56] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:09:26] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:09:37] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:09:38] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:10:06] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:10:07] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:10:48] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:11:20] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:03] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:17] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:31] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:31] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:31] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:32] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:32] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:32] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:33] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:33] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-07 23:12:33] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/layout/general /main.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 49
+[2025-02-08 00:23:37] Error: ErrorException: Attempt to read property "avatar" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 60
+[2025-02-08 00:24:06] Error: ErrorException: Attempt to read property "avatar" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 60
+[2025-02-08 00:24:07] Error: ErrorException: Attempt to read property "avatar" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 60
+[2025-02-08 00:24:08] Error: ErrorException: Attempt to read property "avatar" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 60
+[2025-02-08 00:24:22] Error: ErrorException: Attempt to read property "avatar" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 60
+[2025-02-08 00:24:29] Error: ErrorException: Attempt to read property "avatar" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 60
+[2025-02-08 00:24:30] Error: ErrorException: Attempt to read property "avatar" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 60
+[2025-02-08 00:37:58] Error: Exception: Controller App\Controllers\labolatoryController.php tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-02-08 01:05:00] Error: ErrorException: Undefined property: App\Models\Lab::$lab_desc in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\listLabolatory\index.php on line 48
+[2025-02-08 01:05:15] Error: ErrorException: Undefined property: App\Models\Lab::$lab_desc in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\listLabolatory\index.php on line 48
+[2025-02-08 01:05:20] Error: ErrorException: Undefined property: App\Models\Lab::$lab_desc in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\listLabolatory\index.php on line 48
+[2025-02-08 01:05:21] Error: ErrorException: Undefined property: App\Models\Lab::$lab_desc in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\listLabolatory\index.php on line 48
+[2025-02-08 01:05:24] Error: ErrorException: Undefined property: App\Models\Lab::$lab_desc in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\listLabolatory\index.php on line 48
+[2025-02-08 01:06:49] Error: ErrorException: Undefined property: App\Models\Lab::$lab_desc in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\listLabolatory\index.php on line 49
+[2025-02-08 01:22:44] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 9
+[2025-02-08 01:24:49] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-08 01:24:57] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-08 02:46:16] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/labolatory/listEquipment/index.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-08 02:54:36] Error: ErrorException: Undefined variable $listEquipment in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\listEquipment\index.php on line 51
+[2025-02-08 02:54:51] Error: ErrorException: Undefined variable $listEquipment in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\listEquipment\index.php on line 51
+[2025-02-08 03:04:11] Error: ErrorException: Undefined property: App\Models\Equipment::$equipments_lab_id in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\listEquipment\index.php on line 60
+[2025-02-08 03:14:25] Error: ErrorException: Undefined property: App\Models\Equipment::$lab_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:20] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:27] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:55] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:55] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:55] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:56] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:56] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:56] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:56] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:56] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:56] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:57] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:57] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:57] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:57] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:57] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:57] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:58] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:58] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-08 06:15:58] Error: ErrorException: Undefined property: App\Models\Equipment::$equipment_banner in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 01:58:28] Error: ErrorException: Undefined variable $currentLab in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 144
+[2025-02-09 01:58:40] Error: ErrorException: Undefined variable $currentLab in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 144
+[2025-02-09 02:00:07] Error: ParseError: syntax error, unexpected token "endforeach", expecting end of file in C:\Storage\prj\LabConnect\labConnect\app\Views\home\index.php on line 158
+[2025-02-09 06:25:18] Error: PDOException: SQLSTATE[HY000]: General error: 1 unknown column "cat_id" in foreign key definition in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 06:25:34] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 06:25:43] Error: PDOException: SQLSTATE[HY000]: General error: 1 AUTOINCREMENT not allowed on WITHOUT ROWID tables in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 07:13:47] Error: ErrorException: Undefined array key "name" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\ContactController.php on line 11
+[2025-02-09 07:48:16] Error: ParseError: syntax error, unexpected token ";" in C:\Storage\prj\LabConnect\labConnect\app\Controllers\ContactController.php on line 36
+[2025-02-09 08:24:00] Error: ErrorException: Attempt to read property "isContact" on string in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 135
+[2025-02-09 08:24:13] Error: ErrorException: Undefined variable $page in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 135
+[2025-02-09 08:24:17] Error: ErrorException: Undefined variable $page in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 135
+[2025-02-09 08:25:31] Error: TypeError: Cannot access offset of type string on string in C:\Storage\prj\LabConnect\labConnect\app\Views\layout\general\main.php on line 135
+[2025-02-09 08:26:58] Error: ErrorException: Undefined variable $page in C:\Storage\prj\LabConnect\labConnect\app\Views\contact\index.php on line 2
+[2025-02-09 08:45:10] Error: Exception: Controller App\Controllers\User\get-in-touch tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-02-09 08:46:09] Error: Exception: Controller App\Controllers\User/GetInTouchController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-02-09 08:46:34] Error: Error: Unknown named parameter $user_seo in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 131
+[2025-02-09 08:46:50] Error: TypeError: Core\Database::fetchAll(): Argument #2 ($params) must be of type array, string given, called in C:\Storage\prj\LabConnect\labConnect\app\Models\Contact.php on line 23 in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 41
+[2025-02-09 08:48:49] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "BY": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 08:51:05] Error: ErrorException: Undefined property: App\Models\Contact::$Status in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\index.php on line 32
+[2025-02-09 08:51:15] Error: ErrorException: Undefined variable $equipments in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\index.php on line 34
+[2025-02-09 08:52:11] Error: ErrorException: Undefined variable $equipments in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\index.php on line 34
+[2025-02-09 08:52:38] Error: ErrorException: Undefined variable $equipments in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\index.php on line 34
+[2025-02-09 08:52:40] Error: ErrorException: Undefined variable $equipments in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\index.php on line 34
+[2025-02-09 08:59:23] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/list_get-in-touch/get-in-touch/index.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:00:15] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/get-in-touch/list_get-in-touch/get-in-touch/index.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:00:43] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/get-in-touch/list_get-in-touch/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:00:44] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/get-in-touch/list_get-in-touch/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:00:45] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/get-in-touch/list_get-in-touch/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:00:45] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/get-in-touch/list_get-in-touch/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:00:45] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/get-in-touch/list_get-in-touch/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:00:45] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/get-in-touch/list_get-in-touch/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 09:01:48] Error: ErrorException: Undefined variable $listMessegage in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\list_get-in-touch\index.php on line 27
+[2025-02-09 09:07:06] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:07:58] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:09:14] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:10:27] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:11:22] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:11:23] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:11:23] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:11:23] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\LabConnect\labConnect\app\Views\user\get-in-touch\detail_get-in-touch\index.php on line 19
+[2025-02-09 09:17:15] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such column: ROWID in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 11:01:05] Error: Exception: Method listProject tidak ditemukan di controller App\Controllers\User\EquipmentController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 11:01:18] Error: Exception: Method listProject tidak ditemukan di controller App\Controllers\User\ProjectController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 11:01:45] Error: ErrorException: Creation of dynamic property App\Models\Project::$equipments_banner is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 11:04:43] Error: ErrorException: Creation of dynamic property App\Models\Project::$equipments_banner is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 11:04:44] Error: ErrorException: Creation of dynamic property App\Models\Project::$equipments_banner is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 11:04:45] Error: ErrorException: Creation of dynamic property App\Models\Project::$equipments_banner is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 11:05:44] Error: ErrorException: Creation of dynamic property App\Models\Project::$equipments_banner is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 11:06:35] Error: Exception: Method detailProject tidak ditemukan di controller App\Controllers\User\ProjectController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 11:57:01] Error: Exception: Method deleteProject tidak ditemukan di controller App\Controllers\User\ProjectController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 12:12:31] Error: Exception: Method editProject tidak ditemukan di controller App\Controllers\User\ProjectController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 12:14:18] Error: Exception: Method editProject tidak ditemukan di controller App\Controllers\User\ProjectController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 12:26:19] Error: Exception: Method updateProject tidak ditemukan di controller App\Controllers\User\ProjectController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 12:32:42] Error: Exception: Method updateProject tidak ditemukan di controller App\Controllers\User\ProjectController. in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 129
+[2025-02-09 12:33:09] Error: ErrorException: Creation of dynamic property App\Models\Project::$equipments_name is deprecated in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\ProjectController.php on line 216
+[2025-02-09 12:51:00] Error: ErrorException: Undefined property: App\Models\Project::$seo_lab in C:\Storage\prj\LabConnect\labConnect\app\Views\project\listProject\index.php on line 37
+[2025-02-09 12:52:39] Error: ErrorException: Undefined property: App\Models\Project::$seo_lab in C:\Storage\prj\LabConnect\labConnect\app\Views\project\listProject\index.php on line 37
+[2025-02-09 12:52:40] Error: ErrorException: Undefined property: App\Models\Project::$seo_lab in C:\Storage\prj\LabConnect\labConnect\app\Views\project\listProject\index.php on line 37
+[2025-02-09 12:52:55] Error: ErrorException: Undefined property: App\Models\Project::$seo_lab in C:\Storage\prj\LabConnect\labConnect\app\Views\project\listProject\index.php on line 37
+[2025-02-09 12:52:56] Error: ErrorException: Undefined property: App\Models\Project::$seo_lab in C:\Storage\prj\LabConnect\labConnect\app\Views\project\listProject\index.php on line 37
+[2025-02-09 12:53:07] Error: ErrorException: Undefined property: App\Models\Project::$seo_lab in C:\Storage\prj\LabConnect\labConnect\app\Views\project\listProject\index.php on line 37
+[2025-02-09 12:54:23] Error: ErrorException: Attempt to read property "equipments_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 12:56:43] Error: ErrorException: Attempt to read property "equipments_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 12:57:02] Error: ErrorException: Attempt to read property "equipments_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 12:57:22] Error: ErrorException: Attempt to read property "equipments_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 12:57:23] Error: ErrorException: Attempt to read property "equipments_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 12:58:15] Error: ErrorException: Attempt to read property "equipments_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 12:58:43] Error: ErrorException: Attempt to read property "equipments_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\equipment\detailEquipment\index.php on line 5
+[2025-02-09 13:39:05] Error: Exception: Controller App\Controllers\User\EquipmentSubmissionController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-02-09 13:39:11] Error: Exception: Controller App\Controllers\User\EquipmentSubmissionController tidak ditemukan.  in C:\Storage\prj\LabConnect\labConnect\core\Router.php on line 125
+[2025-02-09 14:10:06] Error: ErrorException: Undefined property: App\Models\Equipment::$lab_name in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\equipmentDetailReservation\index.php on line 33
+[2025-02-09 14:14:29] Error: ErrorException: Undefined variable $labExisting in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\equipmentDetailReservation\index.php on line 33
+[2025-02-09 15:18:45] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 15:18:50] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 15:19:57] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 15:29:19] Error: ErrorException: Undefined variable $equipments in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\equipmentReservation\index.php on line 38
+[2025-02-09 15:30:30] Error: ErrorException: Undefined variable $equipments in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\equipmentReservation\index.php on line 38
+[2025-02-09 15:32:16] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:17] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:18] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:18] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:18] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:18] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:18] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:19] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:19] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:19] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:19] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:32:20] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\LabConnect\labConnect/app/Views/user/requester/equipmentReservation/index.php.php in C:\Storage\prj\LabConnect\labConnect\core\View.php on line 32
+[2025-02-09 15:33:09] Error: Error: Class "App\Controllers\User\Lab" not found in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 104
+[2025-02-09 15:35:52] Error: ErrorException: Undefined property: App\Models\EquipmentReservation::$lab_id in C:\Storage\prj\LabConnect\labConnect\app\Views\user\requester\labDetailReservation\index.php on line 33
+[2025-02-09 15:36:58] Error: Error: Class "App\Controllers\User\labReservation" not found in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 147
+[2025-02-09 15:37:09] Error: Error: Class "App\Controllers\User\labReservation" not found in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 147
+[2025-02-09 15:39:31] Error: Error: Class "App\Controllers\User\labReservation" not found in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 147
+[2025-02-09 15:44:55] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 183
+[2025-02-09 15:45:09] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 183
+[2025-02-09 16:40:24] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 16:42:21] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 16:42:23] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 16:42:23] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 16:42:24] Error: ErrorException: Creation of dynamic property App\Models\EquipmentReservation::$lab_id is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 44
+[2025-02-09 16:43:34] Error: ErrorException: Undefined variable $lab in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\equipmentReservation\index.php on line 49
+[2025-02-09 16:51:14] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:52:59] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:53:00] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:53:58] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:53:59] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:56:56] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:56:58] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:56:59] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:56:59] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:57:06] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:57:06] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:57:07] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:57:17] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:57:18] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 16:57:21] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 17:00:15] Error: ErrorException: foreach() argument must be of type array|object, string given in C:\Storage\prj\LabConnect\labConnect\app\Views\user\approver\equipmentReservation\index.php on line 39
+[2025-02-09 17:06:20] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 17:06:28] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "AND": syntax error in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 36
+[2025-02-09 21:04:52] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:05:39] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:06:45] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:11:39] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:12:06] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:13:11] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:16:06] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:31:47] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 21:35:25] Error: TypeError: App\Models\EquipmentReservation::onGoing(): Return value must be of type int, array returned in C:\Storage\prj\LabConnect\labConnect\app\Models\EquipmentReservation.php on line 54
+[2025-02-09 21:46:23] Error: ErrorException: Creation of dynamic property App\Models\Equipment::$total is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 53
+[2025-02-09 21:47:09] Error: ErrorException: Creation of dynamic property App\Models\Equipment::$total is deprecated in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 53
+[2025-02-09 22:12:06] Error: ArgumentCountError: PDOStatement::setFetchMode() expects exactly 1 arguments for the fetch mode provided, 2 given in C:\Storage\prj\LabConnect\labConnect\core\Database.php on line 50
+[2025-02-09 22:13:39] Error: ArgumentCountError: Too few arguments to function App\Models\EquipmentReservation::onGoing(), 1 passed in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 156 and exactly 3 expected in C:\Storage\prj\LabConnect\labConnect\app\Models\EquipmentReservation.php on line 48
+[2025-02-09 22:14:03] Error: ArgumentCountError: Too few arguments to function App\Models\EquipmentReservation::onGoing(), 1 passed in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 156 and exactly 3 expected in C:\Storage\prj\LabConnect\labConnect\app\Models\EquipmentReservation.php on line 48
+[2025-02-09 22:16:26] Error: ArgumentCountError: Too few arguments to function App\Models\EquipmentReservation::onGoing(), 1 passed in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 154 and exactly 3 expected in C:\Storage\prj\LabConnect\labConnect\app\Models\EquipmentReservation.php on line 48
+[2025-02-09 22:16:43] Error: ArgumentCountError: Too few arguments to function App\Models\EquipmentReservation::onGoing(), 1 passed in C:\Storage\prj\LabConnect\labConnect\app\Controllers\User\EquipmentSubmissionController.php on line 154 and exactly 3 expected in C:\Storage\prj\LabConnect\labConnect\app\Models\EquipmentReservation.php on line 48
+[2025-02-09 22:18:27] Error: ErrorException: Attempt to read property "equipments_stock" on bool in C:\Storage\prj\LabConnect\labConnect\app\Models\Equipment.php on line 72
+[2025-02-09 22:18:43] Error: ErrorException: Attempt to read property "equipments_stock" on bool in C:\Storage\prj\LabConnect\labConnect\app\Models\Equipment.php on line 72
+[2025-02-09 22:21:18] Error: ErrorException: Attempt to read property "equipments_stock" on bool in C:\Storage\prj\LabConnect\labConnect\app\Models\Equipment.php on line 72
+[2025-02-09 22:21:33] Error: ErrorException: Attempt to read property "equipments_stock" on bool in C:\Storage\prj\LabConnect\labConnect\app\Models\Equipment.php on line 72
+[2025-02-09 23:13:13] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:15:41] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:16:12] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:17:03] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:17:08] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:17:22] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:34:18] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:41:46] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:43:01] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:43:09] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:44:09] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:44:39] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:46:22] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:47:50] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:47:51] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:47:55] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:49:43] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-09 23:49:51] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-10 00:14:48] Error: ArgumentCountError: Too few arguments to function App\Controllers\SearchController::index(), 0 passed and exactly 1 expected in C:\Storage\prj\LabConnect\labConnect\app\Controllers\SearchController.php on line 11
+[2025-02-10 00:14:59] Error: ArgumentCountError: Too few arguments to function App\Controllers\SearchController::index(), 0 passed and exactly 1 expected in C:\Storage\prj\LabConnect\labConnect\app\Controllers\SearchController.php on line 11
+[2025-02-10 00:15:02] Error: ArgumentCountError: Too few arguments to function App\Controllers\SearchController::index(), 0 passed and exactly 1 expected in C:\Storage\prj\LabConnect\labConnect\app\Controllers\SearchController.php on line 11
+[2025-02-10 00:15:06] Error: ArgumentCountError: Too few arguments to function App\Controllers\SearchController::index(), 0 passed and exactly 1 expected in C:\Storage\prj\LabConnect\labConnect\app\Controllers\SearchController.php on line 11
+[2025-02-10 00:16:17] Error: ArgumentCountError: Too few arguments to function App\Controllers\SearchController::index(), 0 passed and exactly 1 expected in C:\Storage\prj\LabConnect\labConnect\app\Controllers\SearchController.php on line 11
+[2025-02-10 00:17:10] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-10 00:32:04] Error: ErrorException: Undefined property: App\Models\Lab::$lab_desc in C:\Storage\prj\LabConnect\labConnect\app\Views\search\index.php on line 25
+[2025-02-10 00:48:53] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-10 00:49:38] Error: ErrorException: Attempt to read property "lab_banner" on null in C:\Storage\prj\LabConnect\labConnect\app\Views\labolatory\detailLabolatory\index.php on line 5
+[2025-02-12 17:18:03] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:18:41] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:19:25] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:19:25] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:26:55] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:26:55] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:26:56] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:26:56] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:27:03] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:27:03] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:29:19] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:29:19] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:33:57] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:33:57] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:34:15] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:34:15] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:34:18] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:34:18] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:37:46] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:37:46] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:37:49] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:37:49] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:42:11] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:42:11] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:42:48] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:42:48] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:43:02] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:43:02] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:43:44] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:43:44] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:45:00] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:45:00] Error: ErrorException: Undefined variable $head_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:45:52] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:45:52] Error: ErrorException: Undefined variable $title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-12 17:47:42] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:48:34] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:49:57] Error: Error: Class "App\Models\User" not found in C:\Storage\prj\shipping\app\Services\Auth.php on line 29
+[2025-02-12 17:51:10] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: users in C:\Storage\prj\shipping\core\Database.php on line 36
+[2025-02-12 17:52:58] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-02-12 17:53:23] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\User, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-02-12 17:54:05] Error: ErrorException: require_once(parts/home/banner.php): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\app\Views\home\index.php on line 3
+[2025-02-12 17:54:38] Error: ErrorException: require_once(parts/home/banner.php): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\app\Views\home\index.php on line 3
+[2025-02-12 17:54:40] Error: ErrorException: require_once(parts/home/banner.php): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\app\Views\home\index.php on line 3
+[2025-02-12 17:54:58] Error: ErrorException: require_once(parts/home/banner.php): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\app\Views\home\index.php on line 3
+[2025-02-12 17:57:25] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\shipping/app/Views//partials/parts/home/banner.php.php in C:\Storage\prj\shipping\core\View.php on line 32
+[2025-02-12 17:57:55] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\shipping/app/Views//partials/home/banner.php.php in C:\Storage\prj\shipping\core\View.php on line 32
+[2025-02-12 18:14:16] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-12 18:22:51] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
