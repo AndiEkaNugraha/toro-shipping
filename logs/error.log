@@ -685,3 +685,4 @@
 [2025-02-15 20:57:47] Error: Exception: Controller App\Controllers\Admin\DashboardController tidak ditemukan.  in C:\Storage\prj\shipping\core\Router.php on line 125
 [2025-02-15 21:00:49] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
 [2025-02-15 21:01:05] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 21:47:10] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
