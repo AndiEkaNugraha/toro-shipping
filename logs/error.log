@@ -650,3 +650,11 @@
 [2025-02-15 14:43:02] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
 [2025-02-15 14:45:29] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
 [2025-02-15 14:45:29] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 19:11:28] Error: Exception: Method login tidak ditemukan di controller App\Controllers\AuthController. in C:\Storage\prj\shipping\core\Router.php on line 129
+[2025-02-15 19:11:28] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 19:11:42] Error: Exception: Method login tidak ditemukan di controller App\Controllers\AuthController. in C:\Storage\prj\shipping\core\Router.php on line 129
+[2025-02-15 19:11:42] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 19:11:53] Error: Exception: Method login tidak ditemukan di controller App\Controllers\AuthController. in C:\Storage\prj\shipping\core\Router.php on line 129
+[2025-02-15 19:11:53] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 19:12:58] Error: Exception: Method login tidak ditemukan di controller App\Controllers\AuthController. in C:\Storage\prj\shipping\core\Router.php on line 129
+[2025-02-15 19:12:58] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
