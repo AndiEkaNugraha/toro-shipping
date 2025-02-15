@@ -259,10 +259,6 @@
 
 }
 
-
-
-
-
 /* Medium screen  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .about-one__img {
@@ -693,13 +689,6 @@
 
 
 }
-
-
-
-
-
-
-
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1187,15 +1176,6 @@
 
 
 }
-
-
-
-
-
-
-
-
-
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
@@ -2375,11 +2355,6 @@
 }
 
 
-
-
-
-
-
 /*--------------------------------------------------------------
 # Slider All Responsice Css
 --------------------------------------------------------------*/
@@ -2589,6 +2564,9 @@
 
 
 @media only screen and (max-width: 767px) {
+    .banner-one {
+        padding: 443px 0px 94px;
+    }
     .banner-one__img1 {
         display: none;
     }
@@ -2612,10 +2590,6 @@
     .banner-one__content-right {
         margin-left: 0px;
         margin-top: 40px;
-    }
-
-    .banner-one {
-        padding: 375px 0px 94px;
     }
 
     .banner-one__content-left h2 br {
@@ -2744,13 +2718,11 @@
 
 
 }
-
-
-
-
-
-
-
+@media only screen and (max-width: 575px) {
+    .banner-one {
+        padding: 375px 0px 94px;
+    }
+}
 
 
 /*--------------------------------------------------------------
