@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     unzip \
     && docker-php-ext-configure pdo_sqlite --with-pdo-sqlite=/usr \
-    && docker-php-ext-install pdo pdo_sqlite \
+    && docker-php-ext-install pdo pdo_mysql \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
