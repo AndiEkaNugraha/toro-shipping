@@ -209,8 +209,8 @@ Banner One
 .banner-one__location-single .round-box {
     position: relative;
     display: block;
-    width: 8px;
-    height: 8px;
+    width: 4px;
+    height: 4px;
     background: var(--logistiq-base);
     border-radius: 50%;
     cursor: pointer;
@@ -222,8 +222,8 @@ Banner One
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 31px;
-    height: 31px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background: transparent;
     -webkit-animation-delay: .9s;
@@ -242,10 +242,10 @@ Banner One
 
 .banner-one__location-single .round-box .bdr {
     position: absolute;
-    top: -7px;
-    left: -7px;
-    bottom: -7px;
-    right: -7px;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
     display: flex;
     align-items: center;
     justify-content: center;

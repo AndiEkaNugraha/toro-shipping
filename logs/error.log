@@ -555,3 +555,98 @@
 [2025-02-12 17:57:55] Error: RuntimeException: Error: Template file not found: C:\Storage\prj\shipping/app/Views//partials/home/banner.php.php in C:\Storage\prj\shipping\core\View.php on line 32
 [2025-02-12 18:14:16] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
 [2025-02-12 18:22:51] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 12:05:52] Error: Exception: Unsupported database driver: mysql in C:\Storage\prj\shipping\core\Database.php on line 31
+[2025-02-15 12:11:40] Error: ErrorException: Undefined array key "database" in C:\Storage\prj\shipping\core\Database.php on line 19
+[2025-02-15 12:11:40] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 12:13:36] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 12:13:58] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 12:15:07] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 12:15:08] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 12:15:10] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 13:45:06] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 13:46:21] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 13:49:19] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 13:50:11] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 13:51:04] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 13:51:55] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 13:54:01] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:00:34] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:00:34] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:01:17] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:01:17] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:01:48] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/..\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:01:48] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:01:49] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/..\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:01:49] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:04:28] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:04:28] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:04:29] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:04:29] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:04:29] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:04:29] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:04:29] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping/.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:04:29] Error: Exception: no config is bound in the container in C:\Storage\prj\shipping\core\App.php on line 13
+[2025-02-15 14:04:40] Error: Exception: Unsupported database driver:  in C:\Storage\prj\shipping\core\Database.php on line 56
+[2025-02-15 14:05:11] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core/../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:05:11] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:05:20] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:05:20] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:05:29] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:05:29] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:06:00] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:06:00] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:06:01] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:06:01] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:06:02] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:06:02] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:06:17] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:06:17] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:06:52] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:06:52] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:07:19] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:07:19] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:07:20] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:07:20] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:07:26] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:07:26] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:07:30] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:07:30] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:09:18] Error: ErrorException: file_get_contents(C:\Storage\prj\shipping\core../.env\.env): Failed to open stream: No such file or directory in C:\Storage\prj\shipping\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[2025-02-15 14:09:18] Error: Error: Call to undefined function partial() in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-15 14:21:10] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\mainPage, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-02-15 14:33:16] Error: TypeError: Core\Router::add(): Argument #2 ($uri) must be of type string, App\Models\mainPage given, called in C:\Storage\prj\shipping\routes.php on line 17 in C:\Storage\prj\shipping\core\Router.php on line 10
+[2025-02-15 14:33:16] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:34:36] Error: TypeError: Core\Router::add(): Argument #2 ($uri) must be of type string, App\Models\mainPage given, called in C:\Storage\prj\shipping\routes.php on line 17 in C:\Storage\prj\shipping\core\Router.php on line 10
+[2025-02-15 14:34:36] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:34:45] Error: TypeError: Core\Router::add(): Argument #2 ($uri) must be of type string, App\Models\mainPage given, called in C:\Storage\prj\shipping\routes.php on line 17 in C:\Storage\prj\shipping\core\Router.php on line 10
+[2025-02-15 14:34:45] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:34:50] Error: TypeError: Core\Router::add(): Argument #2 ($uri) must be of type string, App\Models\mainPage given, called in C:\Storage\prj\shipping\routes.php on line 17 in C:\Storage\prj\shipping\core\Router.php on line 10
+[2025-02-15 14:34:50] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:36:20] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 14:36:20] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:38:51] Error: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'toro.mainpage' doesn't exist in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-02-15 14:38:51] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:39:40] Error: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'toro.mainpage' doesn't exist in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-02-15 14:39:40] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:40:44] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:40:44] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:41:02] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:41:02] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:42:01] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:42:01] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:42:32] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:42:32] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:42:38] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:42:38] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:42:41] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:42:41] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:43:01] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:43:01] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:43:02] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:43:02] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:43:02] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:43:02] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:43:02] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:43:02] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 14:45:29] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-15 14:45:29] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7

@@ -23,14 +23,23 @@ class Database {
     }
   }
 
+  // protected function createDsn(array $config): string {
+  //   $driver = $config['driver'];
+  //   $dbname = $config['dbname'];
+  //   return match($driver) {
+  //     'sqlite' => "sqlite:$dbname",
+  //     default => throw new Exception("Unsupported database driver: $driver")
+  //   };
+  // }
+
   protected function createDsn(array $config): string {
     $driver = $config['driver'];
-    $dbname = $config['dbname'];
     return match($driver) {
-      'sqlite' => "sqlite:$dbname",
-      default => throw new Exception("Unsupported database driver: $driver")
+        'sqlite' => "sqlite:{$config['dbname']}",
+        'mysql' => "mysql:host={$config['host']};port={$config['port']};dbname={$config['dbname']};charset={$config['charset']}",
+        default => throw new Exception("Unsupported database driver: $driver")
     };
-  }
+}
 
   public function query(string $sql, array $params = []): PDOStatement {
     $stmt = $this->pdo->prepare($sql);
