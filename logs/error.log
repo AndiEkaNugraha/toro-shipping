@@ -658,3 +658,30 @@
 [2025-02-15 19:11:53] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
 [2025-02-15 19:12:58] Error: Exception: Method login tidak ditemukan di controller App\Controllers\AuthController. in C:\Storage\prj\shipping\core\Router.php on line 129
 [2025-02-15 19:12:58] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 20:15:46] Error: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'toro_db.users' doesn't exist in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-02-15 20:19:08] Error: ErrorException: Creation of dynamic property App\Models\User::$seo_name is deprecated in C:\Storage\prj\shipping\core\Database.php on line 62
+[2025-02-15 20:20:10] Error: ErrorException: Creation of dynamic property App\Models\User::$create_at is deprecated in C:\Storage\prj\shipping\core\Database.php on line 62
+[2025-02-15 20:26:04] Error: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'toro_db.users' doesn't exist in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-02-15 20:26:04] Error: ErrorException: Undefined variable $meta_title in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 7
+[2025-02-15 20:27:43] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:30:04] Error: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'toro_db.users' doesn't exist in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-02-15 20:36:44] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:44:34] Error: ErrorException: Undefined property: App\Models\User::$hash_password in C:\Storage\prj\shipping\app\Services\Auth.php on line 13
+[2025-02-15 20:45:54] Error: Error: Class "App\Models\RememberToken" not found in C:\Storage\prj\shipping\app\Services\RememberMe.php on line 11
+[2025-02-15 20:46:28] Error: TypeError: App\Models\RememberToken::createForUser(): Return value must be of type App\Models\RememberToken, null returned in C:\Storage\prj\shipping\app\Models\RememberToken.php on line 44
+[2025-02-15 20:48:05] Error: TypeError: App\Models\RememberToken::createForUser(): Return value must be of type App\Models\RememberToken, null returned in C:\Storage\prj\shipping\app\Models\RememberToken.php on line 44
+[2025-02-15 20:49:12] Error: ErrorException: Undefined array key "csrf_token" in C:\Storage\prj\shipping\app\Services\CSRF.php on line 46
+[2025-02-15 20:50:14] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:51:33] Error: ErrorException: Undefined array key "csrf_token" in C:\Storage\prj\shipping\app\Services\CSRF.php on line 46
+[2025-02-15 20:51:59] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:54:39] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:55:33] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:55:48] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:55:55] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:56:17] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:57:12] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:57:22] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 20:57:37] Error: Exception: Controller App\Controllers\Admin/DashboardController tidak ditemukan.  in C:\Storage\prj\shipping\core\Router.php on line 125
+[2025-02-15 20:57:47] Error: Exception: Controller App\Controllers\Admin\DashboardController tidak ditemukan.  in C:\Storage\prj\shipping\core\Router.php on line 125
+[2025-02-15 21:00:49] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
+[2025-02-15 21:01:05] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49

@@ -10,19 +10,19 @@
 
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <!-- VENDOR CSS -->
-<link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/admin/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/admin/vendor/font-awesome/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="../assets/vendor/charts-c3/plugin.css"/>
-<link rel="stylesheet" href="../assets/vendor/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
-<link rel="stylesheet" href="../assets/vendor/chartist/css/chartist.min.css">
-<link rel="stylesheet" href="../assets/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.css">
-<link rel="stylesheet" href="../assets/vendor/toastr/toastr.min.css">
+<link rel="stylesheet" href="/assets/admin/vendor/charts-c3/plugin.css"/>
+<link rel="stylesheet" href="/assets/admin/vendor/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
+<link rel="stylesheet" href="/assets/admin/vendor/chartist/css/chartist.min.css">
+<link rel="stylesheet" href="/assets/admin/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="/assets/admin/vendor/toastr/toastr.min.css">
 
 
 <!-- MAIN CSS -->
-<link rel="stylesheet" href="assets/css/main.css">
-<link rel="stylesheet" href="assets/css/color_skins.css">
+<link rel="stylesheet" href="/assets/admin/css/main.css">
+<link rel="stylesheet" href="/assets/admin/css/color_skins.css">
 </head>
 
 <body class="theme-orange">
@@ -30,7 +30,7 @@
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
     <div class="loader">
-        <div class="m-t-30"><img src="../assets/images/icon-light.svg" width="48" height="48" alt="HexaBit"></div>
+        <div class="m-t-30"><img src="/assets/img/logo-white.png" width="50" height="50" alt="HexaBit"></div>
         <p>Please wait...</p>        
     </div>
 </div>
@@ -44,7 +44,7 @@
 
             <div class="navbar-left">
                 <div class="navbar-btn">
-                    <a href="index.html"><img src="../assets/images/icon-light.svg" alt="HexaBit Logo" class="img-fluid logo"></a>
+                    <a href="index.html"><img src="/assets/admin/images/icon-light.svg" alt="HexaBit Logo" class="img-fluid logo"></a>
                     <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
                 </div>
                 <a href="javascript:void(0);" class="icon-menu btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></a>
@@ -100,7 +100,7 @@
                                 <li>
                                     <a href="javascript:void(0);">
                                         <div class="media">
-                                            <img class="media-object " src="../assets/images/xs/avatar4.jpg" alt="">
+                                            <img class="media-object " src="/assets/admin/images/xs/avatar4.jpg" alt="">
                                             <div class="media-body">
                                                 <span class="name">James Wert <small class="float-right">Just now</small></span>
                                                 <span class="message">Lorem ipsum Veniam aliquip culpa laboris minim tempor</span>
@@ -111,7 +111,7 @@
                                 <li>
                                     <a href="javascript:void(0);">
                                         <div class="media">
-                                            <img class="media-object " src="../assets/images/xs/avatar1.jpg" alt="">
+                                            <img class="media-object " src="/assets/admin/images/xs/avatar1.jpg" alt="">
                                             <div class="media-body">
                                                 <span class="name">Folisise Chosielie <small class="float-right">12min ago</small></span>
                                                 <span class="message">There are many variations of Lorem Ipsum available, but the majority</span>
@@ -122,7 +122,7 @@
                                 <li>
                                     <a href="javascript:void(0);">
                                         <div class="media">
-                                            <img class="media-object " src="../assets/images/xs/avatar5.jpg" alt="">
+                                            <img class="media-object " src="/assets/admin/images/xs/avatar5.jpg" alt="">
                                             <div class="media-body">
                                                 <span class="name">Ava Alexander <small class="float-right">38min ago</small></span>
                                                 <span class="message">Many desktop publishing packages and web page editors</span>
@@ -133,7 +133,7 @@
                                 <li>
                                     <a href="javascript:void(0);">
                                         <div class="media mb-0">
-                                            <img class="media-object " src="../assets/images/xs/avatar2.jpg" alt="">
+                                            <img class="media-object " src="/assets/admin/images/xs/avatar2.jpg" alt="">
                                             <div class="media-body">
                                                 <span class="name">Debra Stewart <small class="float-right">2hr ago</small></span>
                                                 <span class="message">Contrary to popular belief, Lorem Ipsum is not simply random text</span>
@@ -294,7 +294,7 @@
                             <li class="online">
                                 <a href="javascript:void(0);">
                                     <div class="media">
-                                        <img class="media-object " src="../assets/images/xs/avatar4.jpg" alt="">
+                                        <img class="media-object " src="/assets/admin/images/xs/avatar4.jpg" alt="">
                                         <div class="media-body">
                                             <span class="name">Ava Alexander <small class="float-right">Just now</small></span>
                                             <span class="message">Lorem ipsum Veniam aliquip culpa laboris minim tempor</span>
@@ -306,7 +306,7 @@
                             <li class="online">
                                 <a href="javascript:void(0);">
                                     <div class="media">
-                                        <img class="media-object " src="../assets/images/xs/avatar5.jpg" alt="">
+                                        <img class="media-object " src="/assets/admin/images/xs/avatar5.jpg" alt="">
                                         <div class="media-body">
                                             <span class="name">Debra Stewart <small class="float-right">38min ago</small></span>
                                             <span class="message">Many desktop publishing packages and web page editors</span>
@@ -318,7 +318,7 @@
                             <li class="offline">
                                 <a href="javascript:void(0);">
                                     <div class="media">
-                                        <img class="media-object " src="../assets/images/xs/avatar2.jpg" alt="">
+                                        <img class="media-object " src="/assets/admin/images/xs/avatar2.jpg" alt="">
                                         <div class="media-body">
                                             <span class="name">Susie Willis <small class="float-right">2hr ago</small></span>
                                             <span class="message">Contrary to belief, Lorem Ipsum is not simply random text</span>
@@ -330,7 +330,7 @@
                             <li class="offline">
                                 <a href="javascript:void(0);">
                                     <div class="media">
-                                        <img class="media-object " src="../assets/images/xs/avatar1.jpg" alt="">
+                                        <img class="media-object " src="/assets/admin/images/xs/avatar1.jpg" alt="">
                                         <div class="media-body">
                                             <span class="name">Folisise Chosielie <small class="float-right">2hr ago</small></span>
                                             <span class="message">There are many of passages of available, but the majority</span>
@@ -342,7 +342,7 @@
                             <li class="online">
                                 <a href="javascript:void(0);">
                                     <div class="media">
-                                        <img class="media-object " src="../assets/images/xs/avatar3.jpg" alt="">
+                                        <img class="media-object " src="/assets/admin/images/xs/avatar3.jpg" alt="">
                                         <div class="media-body">
                                             <span class="name">Marshall Nichols <small class="float-right">1day ago</small></span>
                                             <span class="message">It is a long fact that a reader will be distracted</span>
@@ -360,13 +360,13 @@
 
     <div id="left-sidebar" class="sidebar">
         <div class="navbar-brand">
-            <a href="index.html"><img src="../assets/images/icon-dark.svg" alt="HexaBit Logo" class="img-fluid logo"><span>HexaBit</span></a>
+            <a href="index.html"><img src="/assets/admin/images/icon-dark.svg" alt="HexaBit Logo" class="img-fluid logo"><span>HexaBit</span></a>
             <button type="button" class="btn-toggle-offcanvas btn btn-sm btn-default float-right"><i class="lnr lnr-menu fa fa-chevron-circle-left"></i></button>
         </div>
         <div class="sidebar-scroll">
             <div class="user-account">
                 <div class="user_div">
-                    <img src="../assets/images/user.png" class="user-photo" alt="User Profile Picture">
+                    <img src="/assets/admin/images/user.png" class="user-photo" alt="User Profile Picture">
                 </div>
                 <div class="dropdown">
                     <span>Welcome,</span>
@@ -518,14 +518,14 @@
 </div>
 
 <!-- Javascript -->
-<script src="assets/bundles/libscripts.bundle.js"></script>    
-<script src="assets/bundles/vendorscripts.bundle.js"></script>
+<script src="/assets/admin/bundles/libscripts.bundle.js"></script>    
+<script src="/assets/admin/bundles/vendorscripts.bundle.js"></script>
 
-<script src="assets/bundles/c3.bundle.js"></script>
-<script src="assets/bundles/chartist.bundle.js"></script>
-<script src="../assets/vendor/toastr/toastr.js"></script>
+<script src="/assets/admin/bundles/c3.bundle.js"></script>
+<script src="/assets/admin/bundles/chartist.bundle.js"></script>
+<script src="/assets/admin/vendor/toastr/toastr.js"></script>
 
-<script src="assets/bundles/mainscripts.bundle.js"></script>
-<script src="assets/js/index.js"></script>
+<script src="/assets/admin/bundles/mainscripts.bundle.js"></script>
+<script src="/assets/admin/js/index.js"></script>
 </body>
 </html>

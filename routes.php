@@ -15,4 +15,8 @@ $router->addGlobalMiddleware(CSRF::class);
 $router->addRouteMiddleware('auth', Auth::class);
 
 $router->add('GET', $mainPage[0]->seo_page, 'HomeController@index');
-$router->add('GET', 'administrator', 'AuthController@login');
+
+$router->add('GET', 'administrator/login', 'AuthController@login');
+$router->add('POST', 'administrator/login', 'AuthController@store');
+
+$router->add('GET', 'administrator/{user_seo}', 'Admin\DashboardController@index',['auth']);
