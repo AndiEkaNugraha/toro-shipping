@@ -686,3 +686,43 @@
 [2025-02-15 21:00:49] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
 [2025-02-15 21:01:05] Error: RuntimeException: Error: Layout file not found: C:\Storage\prj\shipping/app/Views/layout/main.php in C:\Storage\prj\shipping\core\View.php on line 49
 [2025-02-15 21:47:10] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-02-17 17:03:28] Error: ErrorException: Undefined property: App\Models\User::$user_seo in C:\Storage\prj\shipping\app\Views\layout\admin\index.php on line 85
+[2025-02-17 17:03:38] Error: ErrorException: Undefined property: App\Models\User::$seo_user in C:\Storage\prj\shipping\app\Views\layout\admin\index.php on line 85
+[2025-02-17 17:10:05] Error: Error: Unknown named parameter $user_seo in C:\Storage\prj\shipping\core\Router.php on line 131
+[2025-02-18 04:38:36] Error: ErrorException: Undefined variable $table in C:\Storage\prj\shipping\app\Views\layout\admin\index.php on line 100
+[2025-02-23 11:23:11] Error: TypeError: App\Models\Contact::findById(): Return value must be of type ?App\Models\User, App\Models\Contact returned in C:\Storage\prj\shipping\app\Models\Contact.php on line 25
+[2025-02-23 11:23:47] Error: TypeError: App\Models\Contact::findById(): Return value must be of type ?App\Models\User, App\Models\Contact returned in C:\Storage\prj\shipping\app\Models\Contact.php on line 25
+[2025-02-23 11:36:48] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\shipping\app\Views\admin\contact\index.php on line 37
+[2025-02-23 11:36:55] Error: Error: Object of class App\Models\Contact could not be converted to string in C:\Storage\prj\shipping\app\Views\admin\contact\index.php on line 37
+[2025-02-23 11:46:52] Error: ErrorException: Undefined array key "facebook" in C:\Storage\prj\shipping\app\Controllers\Admin\ContactController.php on line 38
+[2025-02-23 14:22:28] Error: ArgumentCountError: Too few arguments to function App\Controllers\Admin\ContactController::index(), 1 passed and exactly 3 expected in C:\Storage\prj\shipping\app\Controllers\Admin\ContactController.php on line 9
+[2025-02-23 14:39:32] Error: ErrorException: Undefined array key "error" in C:\Storage\prj\shipping\app\Controllers\AuthController.php on line 9
+[2025-02-23 14:51:37] Error: TypeError: App\Models\Contact::findAll(): Return value must be of type ?App\Models\Contact, array returned in C:\Storage\prj\shipping\app\Models\Contact.php on line 34
+[2025-02-23 14:51:51] Error: TypeError: App\Models\Contact::findAll(): Return value must be of type ?App\Models\Contact, array returned in C:\Storage\prj\shipping\app\Models\Contact.php on line 34
+[2025-02-23 14:56:54] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 20
+[2025-02-23 14:57:03] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 20
+[2025-02-23 15:04:22] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 20
+[2025-02-23 15:05:00] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 20
+[2025-02-23 15:09:30] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 15:15:42] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 15:16:27] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:42:36] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:42:36] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:42:55] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:42:55] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:43:47] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:43:47] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:44:13] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:44:13] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:44:17] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:44:17] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:45:06] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:45:06] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:46:02] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:46:02] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:46:45] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:46:45] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:46:57] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:46:57] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-23 18:47:05] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
+[2025-02-23 18:47:05] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71

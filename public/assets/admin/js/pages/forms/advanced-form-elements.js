@@ -13,9 +13,9 @@ $(function() {
     //Date Time
     $demoMaskedInput.find('.datetime').inputmask('d/m/y h:s', { placeholder: '__/__/____ __:__', alias: "datetime", hourFormat: '24' });
     //Mobile Phone Number
-    $demoMaskedInput.find('.mobile-phone-number').inputmask('+99 (999) 999-99-99', { placeholder: '+__ (___) ___-__-__' });
+    $demoMaskedInput.find('.mobile-phone-number').inputmask('(+99) 999 9999 9999', { placeholder: '(+__) ___ ____ ____' });
     //Phone Number
-    $demoMaskedInput.find('.phone-number').inputmask('+99 (999) 999-99-99', { placeholder: '+__ (___) ___-__-__' });
+    $demoMaskedInput.find('.phone-number').inputmask('(+99) 999 9999 9999', { placeholder: '(+__) ___ ____ ____' });
     //Dollar Money
     $demoMaskedInput.find('.money-dollar').inputmask('99,99 $', { placeholder: '__,__ $' });
     //IP Address

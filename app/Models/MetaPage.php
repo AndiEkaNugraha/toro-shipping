@@ -5,8 +5,8 @@ namespace App\Models;
 use Core\App;
 use Core\Model;
 
-class mainPage extends Model {
-  protected static string $table = 'mainPage';
+class MetaPage extends Model {
+  protected static string $table = 'metaPage';
   public $id;
   public $pageName;
   public $meta_title;
@@ -18,7 +18,7 @@ class mainPage extends Model {
   public static function findAll(): array {
     $db = App::get('database');
     $result = $db->fetchAll(
-      'SELECT * FROM mainPage',
+      'SELECT * FROM metaPage',
       [],
       static::class
     );

@@ -10,38 +10,45 @@
                             <div class="main-header-one__top-left">
                                 <div class="header-contact-style1">
                                     <ul>
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-phone"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><span>Talk to Us</span> <a href="tel:1234567890">[+123 456
-                                                        789]</a></p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-email"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><span>Mail Us</span> <a
-                                                        href="mailto:yourmail@email.com">[support@logistra.com]</a>
-                                                </p>
-                                            </div>
-                                        </li>
+                                         <?php if(isset($contact[0]->redirect_to) && $contact[0]->redirect_to !== ""): 
+                                                    $phoneNumber = preg_replace('/\D/', '', $contact[0]->redirect_to);?>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-phone"></span>
+                                                </div>
+                                                <div class="text-box">
+                                                    <p><span>Talk to Us</span> <a href="https://wa.me/<?= $phoneNumber; ?>">[<?= $contact[0]->redirect_to; ?>]</a></p>
+                                                </div>
+                                            </li>
+                                        <?php endif; ?>
+                                        <?php if(isset($contact[1]->redirect_to) && $contact[1]->redirect_to !== ""): ?>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-email"></span>
+                                                </div>
+                                                <div class="text-box">
+                                                    <p><span>Mail Us</span> <a  href="mailto:<?= $contact[1]->redirect_to; ?>">[<?= $contact[1]->redirect_to; ?>]</a> </p>
+                                                </div>
+                                            </li>
+                                        <?php endif; ?>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="main-header-one__top-right">
                                 <div class="header-social-links">
-                                    <a href="#"><span class="icon-facebook-f"></span></a>
-                                    <a href="#"><span class="icon-twitter1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
+                                    <?php if(isset($contact[2]->redirect_to) && $contact[2]->redirect_to !== ""): ?>
+                                        <a href="<?=$contact[2]->redirect_to?>"><span class="icon-facebook-f"></span></a>
+                                    <?php endif; ?>
+                                    <?php if(isset($contact[3]->redirect_to) && $contact[3]->redirect_to !== ""): ?>
+                                    <a href="<?=$contact[3]->redirect_to?>"><span class="icon-twitter1"></span></a>
+                                    <?php endif; ?>
+                                    <?php if(isset($contact[4]->redirect_to) && $contact[4]->redirect_to !== ""): ?>
+                                    <a href="<?=$contact[4]->redirect_to?>"><span class="icon-instagram"></span></a>
+                                    <?php endif; ?>
+                                    <?php if(isset($contact[5]->redirect_to) && $contact[5]->redirect_to !== ""): ?>
+                                    <a href="<?=$contact[5]->redirect_to?>"><span class="icon-linkedin"></span></a>
+                                    <?php endif; ?>
                                 </div>
 
                                 <div class="header-search-box">
@@ -63,7 +70,9 @@
                                                 $default_logo_url = $dark_logo_url;
                                             }
                                         ?>
-                                        <a href="index.php"><img src="<?php echo $default_logo_url;?>" alt=""></a>
+                                        <a href="/">
+                                            <img src="<?php echo $default_logo_url;?>" alt="logo">
+                                        </a>
                                     </div>
 
                                     <div class="main-header-one__bottom-menu">

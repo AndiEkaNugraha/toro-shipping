@@ -11,6 +11,7 @@ class User extends Model {
   public $id;
   public $email;
   public $name;
+  public $avatar;
   public $password;
   public $seo_name;
   public $is_active;
