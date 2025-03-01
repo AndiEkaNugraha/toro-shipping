@@ -8,7 +8,11 @@ use Core\Model;
 class MetaPage extends Model {
   protected static string $table = 'metaPage';
   public $id;
+  public $order_number;
   public $pageName;
+  public $showInNavbar;
+  public $showInFooter;
+  public $is_active;
   public $meta_title;
   public $meta_desc;
   public $seo_page;
@@ -18,10 +22,19 @@ class MetaPage extends Model {
   public static function findAll(): array {
     $db = App::get('database');
     $result = $db->fetchAll(
-      'SELECT * FROM metaPage',
+      'SELECT * FROM metaPage order by order_number ASC',
       [],
       static::class
     );
     return $result ? $result : [];
+  }
+  public static function findById(string $id): ?MetaPage {
+    $db = App::get('database');
+    $result = $db->fetch(
+      'SELECT * FROM metaPage WHERE id = ?', 
+      [$id],
+      static::class
+    );
+    return $result ? $result : null;
   }
 }

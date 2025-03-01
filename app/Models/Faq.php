@@ -31,13 +31,13 @@ class Faq extends Model {
   public static function findAll() : array {
     $db = App::get('database');
     $result = $db->fetchAll(
-      'SELECT * FROM faq order by create_at DESC' ,
+      'SELECT * FROM faq WHERE is_deleted = 0 order by create_at DESC' ,
       [],
       static::class
     );
     return $result ? $result : [];
   }
-  public static function insert($data) {
+  public static function insert($data): ?Faq {
     $db = App::get('database');
     $db->query(
       'INSERT INTO faq (order_number, title, content, is_active, is_deleted, create_at, create_by, update_at, update_by) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)',
@@ -54,4 +54,5 @@ class Faq extends Model {
       ]
     );
   }
+
 }

@@ -31,6 +31,7 @@
                                     <th>Status</th>
                                     <th>Created At</th>
                                     <th>Updated At</th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -43,6 +44,16 @@
                                         <td class="text-center"><p class="badge <?=$faq->is_active?"badge-primary":"badge-danger"?> mb-0"><?=$faq->is_active?"Active":"Inactive"?></p></td>
                                         <td><?=$faq->create_at??""?></td>
                                         <td><?=$faq->update_at??""?></td>
+                                        <td class="text-center" onclick="event.stopPropagation();">
+                                            <input type="hidden" name="faq_id" value="<?=$faq->id??''?>">
+                                            <button class="btn js-sweetalert" style="box-shadow: none;color:var(--danger);" 
+                                                data-type="delete" 
+                                                data-url="/administrator/<?=$userAuthorize->seo_name??''?>/faq" 
+                                                data-id="<?=$faq->id??''?>"
+                                                data-csrf = "<?= csrf_token_value() ?>">
+                                                <i class="icon-trash"></i>
+                                            </button>
+                                        </td>
                                     </tr>
                                 <?php endforeach; ?>
                                     </tbody>

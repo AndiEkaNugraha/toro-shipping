@@ -48,6 +48,7 @@
                             <p id="error-radio"></p>
                         </div>
                         <br>
+                        <hr/>
                         <div class="text-right">
                             <button type="submit" class="btn btn-dark">Save</button>
                         </div>

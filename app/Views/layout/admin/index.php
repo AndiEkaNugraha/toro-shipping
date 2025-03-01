@@ -8,7 +8,7 @@
 <meta name="description" content="Toro Sentosa Admin Page">
 <meta name="author" content="Toro Sentosa">
 
-<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/img/logo.png" type="image/x-icon">
 <!-- VENDOR CSS -->
 <link rel="stylesheet" href="/assets/admin/vendor/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/assets/admin/vendor/font-awesome/css/font-awesome.min.css">
@@ -98,6 +98,7 @@
             <nav id="left-sidebar-nav" class="sidebar-nav">
                 <ul id="main-menu" class="metismenu">
                     <li class="<?= $page == "dashboard"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>"><i class="icon-home"></i><span>Dashboard</span></a></li>
+                    <li class="<?= $page == "seoPage"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/seo-page"><i class="icon-puzzle"></i><span>Seo Page</span></a></li>
                     <li class="<?= $page == "contact"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/contact"><i class="icon-book-open"></i><span>Contact</span></a></li>
                     <li class="<?= $page == "faq"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/faq"><i class="icon-question"></i><span>FAQ</span></a></li>
                 </ul>
@@ -141,6 +142,7 @@
 <?php endif; ?>
 
 <script src="/assets/admin/vendor/sweetalert/sweetalert.min.js"></script><!-- SweetAlert Plugin Js --> 
+<script src="/assets/admin/js/pages/ui/dialogs.js"></script>
 <script src="/assets/admin/vendor/toastr/toastr.js"></script>
 
 

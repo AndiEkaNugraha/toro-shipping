@@ -842,3 +842,10 @@
 [2025-03-01 09:45:52] Error: TypeError: Core\Model::save(): Return value must be of type App\Models\Faq, null returned in C:\Storage\prj\shipping\core\Model.php on line 110
 [2025-03-01 09:55:47] Error: ErrorException: Undefined property: App\Models\Faq::$is_delete in C:\Storage\prj\shipping\app\Views\partials\home\faq.php on line 26
 [2025-03-01 09:56:01] Error: ErrorException: Undefined property: App\Models\Faq::$description in C:\Storage\prj\shipping\app\Views\partials\home\faq.php on line 34
+[2025-03-01 11:17:42] Error: ErrorException: Creation of dynamic property App\Models\MetaPage::$status is deprecated in C:\Storage\prj\shipping\app\Controllers\Admin\SeoPageController.php on line 99
+[2025-03-01 11:21:08] Error: PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'showInFooter' at row 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 11:22:04] Error: PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'update_by' at row 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 11:22:53] Error: PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'update_by' at row 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 11:24:39] Error: PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'update_by' at row 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 15:21:29] Error: ArgumentCountError: Too few arguments to function App\Controllers\Admin\FaqController::delete(), 1 passed and exactly 2 expected in C:\Storage\prj\shipping\app\Controllers\Admin\FaqController.php on line 169
+[2025-03-01 15:28:35] Error: ArgumentCountError: Too few arguments to function App\Controllers\Admin\FaqController::delete(), 1 passed and exactly 2 expected in C:\Storage\prj\shipping\app\Controllers\Admin\FaqController.php on line 169

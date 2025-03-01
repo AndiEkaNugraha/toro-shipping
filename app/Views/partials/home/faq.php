@@ -11,13 +11,13 @@
                                     <div class="sec-title__tagline">
                                         <div class="line"></div>
                                         <div class="text tg-element-title">
-                                            <h4>Frequently Asked Questions</h4>
+                                            <h4>Pertanyaan yang Sering Diajukan</h4>
                                         </div>
                                         <div class="icon">
                                             <span class="icon-plane2 float-bob-x3"></span>
                                         </div>
                                     </div>
-                                    <h2 class="sec-title__title tg-element-title">Pertanyaan yang Sering <span>DIAJUKAN</span></h2>
+                                    <!-- <h2 class="sec-title__title tg-element-title">Pertanyaan yang Sering <span>DIAJUKAN</span></h2> -->
                                 </div>
 
                                 <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">

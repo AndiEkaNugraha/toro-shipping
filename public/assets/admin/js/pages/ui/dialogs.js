@@ -1,6 +1,9 @@
 $(function () {
     $('.js-sweetalert').on('click', function () {
         var type = $(this).data('type');
+        var id = $(this).data('id');
+        var url = $(this).data('url');
+        var token = $(this).data('csrf');
         if (type === 'basic') {
             showBasicMessage();
         }
@@ -12,6 +15,9 @@ $(function () {
         }
         else if (type === 'confirm') {
             showConfirmMessage();
+        }
+        else if (type === 'delete') {
+            showDeleteMessage(id, url, token);
         }
         else if (type === 'cancel') {
             showCancelMessage();
@@ -58,6 +64,37 @@ function showConfirmMessage() {
         closeOnConfirm: false
     }, function () {
         swal("Deleted!", "Your imaginary file has been deleted.", "success");
+    });
+}
+
+function showDeleteMessage(id,url,token) {
+    swal({
+        title: "Are you sure?",
+        text: "You will not be able to recover this imaginary file!",
+        type: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#dc3545",
+        confirmButtonText: "Yes, delete it!",
+        closeOnConfirm: false
+    }, function () {
+        $.ajax({
+            url: url,
+            type: 'POST',
+            data: {
+                _token: token,
+                id: id
+            },
+            success: function (result) {
+                // Tindakan setelah berhasil menghapus
+                // swal("Deleted!", "Your FAQ has been deleted.", "success");
+                // Refresh atau reload halaman jika perlu
+                location.reload();
+            },
+            error: function (xhr, status, error) {
+                // Tindakan jika terjadi kesalahan
+                swal("Error!", "There was an error deleting the FAQ.", "error");
+            }
+        });
     });
 }
 

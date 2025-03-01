@@ -165,4 +165,17 @@ class FaqController {
 
         Router::redirect('/administrator/'.$user->seo_name.'/faq');
     }
+
+    public function delete($user_seo) {
+        $user = Auth::user();
+        $faq = Faq::find($_POST['id']);
+        $faq->is_deleted = 1;
+        $faq->update_by = $user->id;
+        $faq->save();
+        
+        $_SESSION['status'] = 'success';
+        $_SESSION['message'] = 'FAQ deleted successfully';
+
+        // Router::redirect('/administrator/'.$user->seo_name.'/faq');
+    }
 }
