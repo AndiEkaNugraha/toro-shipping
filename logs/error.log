@@ -726,3 +726,119 @@
 [2025-02-23 18:46:57] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
 [2025-02-23 18:47:05] Error: Error: Class "App\Models\mainPage" not found in C:\Storage\prj\shipping\routes.php on line 11
 [2025-02-23 18:47:05] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-28 13:17:55] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-02-28 14:14:02] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 04:06:06] Error: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 04:06:06] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 04:06:23] Error: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 04:06:23] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 04:06:29] Error: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 04:06:29] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 04:06:49] Error: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 04:06:49] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 04:12:22] Error: ErrorException: Undefined property: App\Models\Faq::$created_at in C:\Storage\prj\shipping\app\Views\admin\faq\index.php on line 45
+[2025-03-01 04:12:26] Error: ErrorException: Undefined property: App\Models\Faq::$created_at in C:\Storage\prj\shipping\app\Views\admin\faq\index.php on line 45
+[2025-03-01 04:20:58] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 04:21:54] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 04:57:00] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 05:03:17] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 05:08:09] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 05:10:58] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 71
+[2025-03-01 05:34:02] Error: ErrorException: Undefined variable $page in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 8
+[2025-03-01 05:34:14] Error: ErrorException: Undefined variable $page in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 8
+[2025-03-01 05:41:02] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-03-01 05:41:14] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-03-01 05:41:16] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-03-01 05:41:17] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-03-01 05:41:26] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-03-01 06:04:45] Error: ErrorException: Undefined variable $pageHome in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 2
+[2025-03-01 06:04:54] Error: ErrorException: Undefined variable $pageHome in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 2
+[2025-03-01 06:04:58] Error: ErrorException: Undefined variable $pageHome in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 2
+[2025-03-01 06:11:06] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:12:46] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:13:11] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:13:52] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:14:01] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:14:11] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:15:03] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:15:35] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:15:58] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:16:37] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:16:52] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:17:17] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:18:28] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 06:20:19] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:29:21] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:31:12] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:31:18] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:32:31] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:32:49] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:33:48] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:33:59] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:35:06] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:35:13] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:36:05] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:36:22] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:36:48] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:36:56] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:38:10] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:38:29] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 77
+[2025-03-01 07:39:07] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:39:41] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:39:41] Error: Error: Cannot use object of type App\Models\Contact as array in C:\Storage\prj\shipping\app\Views\partials\_header.php on line 12
+[2025-03-01 07:40:03] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:40:26] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:40:50] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:40:57] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:41:47] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:42:58] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:43:48] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:44:16] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:44:29] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:45:24] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:45:31] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 77
+[2025-03-01 07:45:47] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 72
+[2025-03-01 07:45:55] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:46:14] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:46:58] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:47:24] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 07:59:36] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:00:23] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:01:38] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:03:29] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:04:47] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:07:54] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:08:45] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:08:48] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:08:55] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:39:24] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:39:40] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:39:51] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:40:23] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:41:47] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:42:37] Error: ParseError: syntax error, unexpected token ";" in C:\Storage\prj\shipping\app\Views\admin\faq\detail.php on line 24
+[2025-03-01 08:43:14] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:46:28] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:54:25] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:55:10] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:55:27] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:56:44] Error: ErrorException: Undefined array key "contact" in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 76
+[2025-03-01 08:59:29] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 74
+[2025-03-01 08:59:30] Error: ErrorException: Undefined variable $contact in C:\Storage\prj\shipping\app\Views\layout\general\main.php on line 74
+[2025-03-01 09:02:42] Error: ErrorException: Undefined variable $errorMessage in C:\Storage\prj\shipping\app\Views\errors\419.php on line 11
+[2025-03-01 09:19:28] Error: ErrorException: Creation of dynamic property App\Models\Faq::$order_number is deprecated in C:\Storage\prj\shipping\core\Database.php on line 62
+[2025-03-01 09:21:44] Error: Error: Object of class App\Models\Faq could not be converted to string in C:\Storage\prj\shipping\app\Views\admin\faq\index.php on line 43
+[2025-03-01 09:22:16] Error: Error: Object of class App\Models\Faq could not be converted to string in C:\Storage\prj\shipping\app\Views\admin\faq\index.php on line 43
+[2025-03-01 09:30:50] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:35:29] Error: PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order_number' at row 1 in C:\Storage\prj\shipping\core\Database.php on line 46
+[2025-03-01 09:37:42] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:38:00] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:38:41] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:39:51] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:40:52] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:42:14] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:42:31] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:45:20] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50
+[2025-03-01 09:45:52] Error: TypeError: Core\Model::save(): Return value must be of type App\Models\Faq, null returned in C:\Storage\prj\shipping\core\Model.php on line 110
+[2025-03-01 09:55:47] Error: ErrorException: Undefined property: App\Models\Faq::$is_delete in C:\Storage\prj\shipping\app\Views\partials\home\faq.php on line 26
+[2025-03-01 09:56:01] Error: ErrorException: Undefined property: App\Models\Faq::$description in C:\Storage\prj\shipping\app\Views\partials\home\faq.php on line 34

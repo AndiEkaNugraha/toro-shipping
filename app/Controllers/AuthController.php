@@ -5,6 +5,15 @@ use Core\View;
 use App\Services\Auth;
 use Core\Router;
 class AuthController{
+
+    public function index() {
+        $user = Auth::user();
+        if ($user) {
+            Router::redirect('/administrator/'. $user->seo_name);
+        }else {
+            Router::redirect('/administrator/login');
+        }
+    }
     public function login() {
         if (isset($_SESSION['error']) && $_SESSION['error'] != null) {
             $error = "Password or Email is incorrect";

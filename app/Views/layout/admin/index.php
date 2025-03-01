@@ -15,6 +15,10 @@
 <link rel="stylesheet" href="/assets/admin/vendor/sweetalert/sweetalert.css"/>
 <link rel="stylesheet" href="/assets/admin/vendor/toastr/toastr.min.css">
 
+<?php if (isset($summerNote) && $summerNote == true ) : ?>
+    <link rel="stylesheet" href="/assets/admin/vendor/summernote/dist/summernote.css"/>
+<?php endif; ?>
+
 <?php if(isset($table) && $table == true): ?>
     <link rel="stylesheet" href="/assets/admin/vendor/jquery-datatable/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="/assets/admin/vendor/jquery-datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css">
@@ -28,6 +32,7 @@
     <link rel="stylesheet" href="/assets/admin/vendor/multi-select/css/multi-select.css">
     <link rel="stylesheet" href="/assets/admin/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css">
     <link rel="stylesheet" href="/assets/admin/vendor/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="/assets/admin/vendor/parsleyjs/css/parsley.css">
 <?php endif; ?>
 
 <!-- MAIN CSS -->
@@ -94,6 +99,7 @@
                 <ul id="main-menu" class="metismenu">
                     <li class="<?= $page == "dashboard"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>"><i class="icon-home"></i><span>Dashboard</span></a></li>
                     <li class="<?= $page == "contact"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/contact"><i class="icon-book-open"></i><span>Contact</span></a></li>
+                    <li class="<?= $page == "faq"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/faq"><i class="icon-question"></i><span>FAQ</span></a></li>
                 </ul>
             </nav>     
         </div>
@@ -125,6 +131,13 @@
     <script src="/assets/admin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
     <script src="/assets/admin/vendor/bootstrap-tagsinput/bootstrap-tagsinput.js"></script><!-- Bootstrap Tags Input Plugin Js --> 
     <script src="/assets/admin/vendor/nouislider/nouislider.js"></script><!-- noUISlider Plugin Js --> 
+    <script src="/assets/admin/vendor/parsleyjs/js/parsley.min.js"></script>
+    <script src="/assets/admin/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+    <script>
+        $(function() {
+            $('#formValidation').parsley();
+        });
+    </script>
 <?php endif; ?>
 
 <script src="/assets/admin/vendor/sweetalert/sweetalert.min.js"></script><!-- SweetAlert Plugin Js --> 
@@ -133,6 +146,9 @@
 
 <script src="/assets/admin/bundles/mainscripts.bundle.js"></script>
 
+<?php if (isset($summerNote) && $summerNote == true ) : ?>
+    <script src="/assets/admin/vendor/summernote/dist/summernote.js"></script>
+<?php endif; ?>
 <?php if(isset($table) && $table == true): ?>
     <script src="/assets/admin/js/pages/tables/jquery-datatable.js"></script>
 <?php endif; ?>

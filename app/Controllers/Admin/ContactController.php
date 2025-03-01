@@ -122,8 +122,5 @@ class ContactController {
         $_SESSION['message'] = 'Contact updated successfully';
 
         Router::redirect('/administrator/'.$user->seo_name.'/contact');
-
-        $_SESSION['status'] = null;
-        $_SESSION['message'] = null;
     }
 }

@@ -68,7 +68,14 @@
 <div class="page-wrapper">
 
 <!--Start Main Header One-->
-    <?= partial('_header', ['contact' => $contact]) ?>
+    <?php 
+        if (isset($pageHome))
+        {
+            print partial('_header', ['contact' => contact(), 'pageHome' => true]);
+        } else {
+            print partial('_header', ['contact' => contact()]);
+        }     
+    ?>
     <!--End Main Header One-->
 
     <div class="stricky-header stricky-header--style1 stricked-menu main-menu">

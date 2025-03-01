@@ -3345,6 +3345,12 @@ $(function() {
     $('.summernote').summernote({
         height: 200,
         focus: true,
+        callbacks: {
+            onChange: function(contents, $editable) {
+                // Set the value of the hidden input to the content of Summernote
+                $('#content').val(contents);
+            }
+        },
         onpaste: function() {
             alert('You have pasted something to the editor');
         }

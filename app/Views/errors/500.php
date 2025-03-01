@@ -1,7 +1,7 @@
 <!-- <h1>Oops! Something went wrong!</h1> -->
 <!-- <p>
   <?php
-    // htmlspecialchars($errorMessage)
+    htmlspecialchars($errorMessage)
   ?>
 </p> -->
 
@@ -12,39 +12,34 @@
     ?></pre> -->
 <?php endif; ?>
 
-<section class="page-section">
-  <div class="full-width-screen">
-    <div class="container-fluid">
-      <div class="content-detail">
-        <div class="pendulum-platform">
-          <div class="pendulum-holder"></div>
-          <div class="pendulum-thread">
-            <div class="pendulum-knob"></div>
-            <div class="pendulum">500</div>
-          </div>
-          <div class="pendulum-shadow"></div>
-        </div>
-        <div class="text-detail">
-        <h4 class="sub-title">Oops!</h4>
-          <p class="detail-text">Internal Server Error,<br> The server cannot process the request for an unknown reason.</p>
-          <p>
-            <?php
-              echo htmlspecialchars($errorMessage)
-            ?>
-          </p>
-          <div>
-          <?php if ($isDebug): ?>
-            <h2>Stack Trace:</h2>
-            <pre><?php 
-              htmlspecialchars($trace) 
-              ?></pre>
-          <?php endif; ?>
-          </div>
-            <div class="back-btn">
-                <a href="/" class="btn">Back to Home</a>
+<section class="error-page">
+    <div class="container">
+        <div class="error-page__inner text-center">
+            <div class="error-page__img float-bob-y">
+                <img src="/assets/general/images/resources/error-page-img1.png" alt="">
+            </div>
+
+            <div class="error-page__content">
+                <h1>500</h1>
+                <h2>Oops! Internal Server Error!</h2>
+                <p>The server cannot process the request for an unknown reason.</p>
+                <pre><?=htmlspecialchars($errorMessage)?></pre>
+                <?php if ($isDebug): ?>
+                  <p>Stack Trace:</p>
+                  <pre style="text-align:left"><?= 
+                    htmlspecialchars($trace) 
+                    ?></pre>
+                <?php endif; ?>
+                <div class="btn-box">
+                    <a class="thm-btn" href="/">Back To Home
+                        <i class="icon-right-arrow21"></i>
+                        <span class="hover-btn hover-bx"></span>
+                        <span class="hover-btn hover-bx2"></span>
+                        <span class="hover-btn hover-bx3"></span>
+                        <span class="hover-btn hover-bx4"></span>
+                    </a>
+                </div>
             </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>

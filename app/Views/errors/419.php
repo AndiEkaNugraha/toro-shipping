@@ -1,23 +1,24 @@
-<section class="page-section">
-  <div class="full-width-screen">
-    <div class="container-fluid">
-      <div class="content-detail">
-        <div class="pendulum-platform">
-          <div class="pendulum-holder"></div>
-          <div class="pendulum-thread">
-            <div class="pendulum-knob"></div>
-            <div class="pendulum">419</div>
-          </div>
-          <div class="pendulum-shadow"></div>
-        </div>
-        <div class="text-detail">
-        <h4 class="sub-title">Oops!</h4>
-          <p class="detail-text">Page Expired
-            <div class="back-btn">
-              <a href="javascript:history.back()" class="btn">Go Back</a>
+<section class="error-page">
+    <div class="container">
+        <div class="error-page__inner text-center">
+            <div class="error-page__img float-bob-y">
+                <img src="/assets/general/images/resources/error-page-img1.png" alt="">
+            </div>
+
+            <div class="error-page__content">
+                <h1>419</h1>
+                <h2>Oops! Page Expired</h2>
+                <p>Please follow the link below to go back to the previous page</p>
+                <div class="btn-box">
+                    <a class="thm-btn" href="javascript:history.back()">Go Back
+                        <i class="icon-right-arrow21"></i>
+                        <span class="hover-btn hover-bx"></span>
+                        <span class="hover-btn hover-bx2"></span>
+                        <span class="hover-btn hover-bx3"></span>
+                        <span class="hover-btn hover-bx4"></span>
+                    </a>
+                </div>
             </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>

@@ -1,6 +1,7 @@
 <?php
 
 namespace Core;
+use App\Models\Contact;
 
 class ErrorHandler {
   public static function handleException(\Throwable $exception) {
@@ -52,10 +53,14 @@ class ErrorHandler {
     }
 
     http_response_code(500);
+    $contact = Contact::findAll();
+    $_SESSION['contact'] = $contact;
+    // var_dump($contact);die;
     echo View::render('errors/500', [
       'errorMessage' => $errorMessage,
       'trace' => $trace,
-      'isDebug' => $isDebug
+      'isDebug' => $isDebug,
+      'contact' => $contact
     ], 'layout/general/main');
     exit();
   }

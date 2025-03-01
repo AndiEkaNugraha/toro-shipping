@@ -1,6 +1,5 @@
 <?= partial('_preloader') ?>
-
-<header class="main-header main-header-one">
+<header class="main-header main-header-one" style="<?php isset($pageHome)? print'background:transparent;position:absolute' : "" ?>">
     <nav class="main-menu">
         <div class="main-menu__wrapper">
             <div class="container">
@@ -65,27 +64,27 @@
                                 <div class="main-header-one__bottom-left">
                                     <div class="logo-box">
                                         <?php
-                                            $default_logo_url = "/assets/general/images/resources/logo-1.png";
+                                            $default_logo_url = "/assets/img/logo nav.png";
                                             if(isset($dark_logo_url)&&!empty($dark_logo_url)) {
                                                 $default_logo_url = $dark_logo_url;
                                             }
                                         ?>
                                         <a href="/">
-                                            <img src="<?php echo $default_logo_url;?>" alt="logo">
+                                            <img src="<?php echo $default_logo_url;?>" alt="logo" height="48px">
                                         </a>
                                     </div>
 
-                                    <div class="main-header-one__bottom-menu">
-                                        <div class="main-menu__main-menu-box">
-                                            <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                                            <?php
-                                                $default_menu_file = partial('_menu');
-                                                if(isset($single_menu_file)&&!empty($single_menu_file)) {
-                                                    $default_menu_file = $single_menu_file;
-                                                }
-                                            ?>
-                                            <?= $default_menu_file; ?>
-                                        </div>
+                                </div>
+                                <div class="main-header-one__bottom-menu">
+                                    <div class="main-menu__main-menu-box">
+                                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                        <?php
+                                            $default_menu_file = partial('_menu');
+                                            if(isset($single_menu_file)&&!empty($single_menu_file)) {
+                                                $default_menu_file = $single_menu_file;
+                                            }
+                                        ?>
+                                        <?= $default_menu_file; ?>
                                     </div>
                                 </div>
 
@@ -94,11 +93,6 @@
                                         <a href="contact.php">Track Order
                                             <i class="icon-right-arrow21"></i>
                                         </a>
-                                    </div>
-
-                                    <div class="login-box">
-                                        <a href="#"><i class="fa fa-sign-in"></i> <span>Member <br>
-                                                Login</span> </a>
                                     </div>
                                 </div>
                             </div>

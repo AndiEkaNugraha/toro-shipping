@@ -1027,10 +1027,10 @@ animation: spinner 1s infinite linear;
 }
 
 .main-header-one {
-  position: absolute;
+  /* position: absolute; */
   display: block;
-  /* background: var(--logistiq-black); */
-  background: transparent;
+  background: var(--logistiq-black);
+  /* background: transparent; */
 }
 
 .main-header-one .container {
@@ -1217,7 +1217,7 @@ animation: spinner 1s infinite linear;
 .main-header-one__bottom {
   position: relative;
   display: block;
-  padding: 0px 40px 0px;
+  padding: 0px 0px 0px 40px;
 }
 
 .main-header-one__bottom-inner {
@@ -1242,11 +1242,12 @@ animation: spinner 1s infinite linear;
 
 .main-header-one__bottom-left .logo-box::before {
   position: absolute;
-  top: -20px;
+  top: -17px;
   left: -40px;
-  bottom: -20px;
+  bottom: -17px;
   right: 0;
-  background: var(--logistiq-base);
+  /* background: var(--logistiq-base); */
+  background: white;
   clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
   z-index: -1;
   content: "";
@@ -1265,7 +1266,7 @@ animation: spinner 1s infinite linear;
 .main-header-one__bottom-menu {
   position: relative;
   display: block;
-  margin-left: 140px;
+  margin-left: auto;
 }
 
 .main-header-one__bottom-right {
@@ -1419,8 +1420,8 @@ animation: spinner 1s infinite linear;
 
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding-block: 27px;
+  padding-inline: 30px;
   position: relative;
 }
 

@@ -2,6 +2,7 @@
 use App\Services\Authorization;
 use Core\View;
 use App\Services\CSRF;
+use App\Models\Contact;
 
 if (!function_exists('partial')) {
     function partial(string $template, array $data = []): string {
@@ -26,5 +27,21 @@ if (!function_exists('csrf_token')) {
 if (!function_exists('check')) {
   function check(string $action, mixed $resource = null): bool {
     return Authorization::check($action, $resource);
-  } 
+  }
+}
+if (!function_exists('truncateContent')) {
+  function truncateContent($content, $limit = 100) {
+    if (strlen($content) > $limit) {
+        $truncated = substr($content, 0, $limit);
+        // Ensure we don't cut off in the middle of a word
+        $truncated = substr($truncated, 0, strrpos($truncated, ' '));
+        return $truncated . '...';
+    }
+    return $content;
+  }
+}
+if (!function_exists('contact')) {
+  function contact() {
+    return Contact::findAll();
+  }
 }

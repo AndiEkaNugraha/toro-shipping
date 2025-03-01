@@ -11,72 +11,31 @@
                                     <div class="sec-title__tagline">
                                         <div class="line"></div>
                                         <div class="text tg-element-title">
-                                            <h4>Company's FAQ</h4>
+                                            <h4>Frequently Asked Questions</h4>
                                         </div>
                                         <div class="icon">
                                             <span class="icon-plane2 float-bob-x3"></span>
                                         </div>
                                     </div>
-                                    <h2 class="sec-title__title tg-element-title">Frequently Asked Have <br>
-                                        Any <span>Question?</span> </h2>
+                                    <h2 class="sec-title__title tg-element-title">Pertanyaan yang Sering <span>DIAJUKAN</span></h2>
                                 </div>
 
                                 <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
-                                    <div class="accrodion">
-                                        <div class="accrodion-title">
-                                            <h4>How do you handle returns or exchanges?</h4>
-                                        </div>
+                                    <?php foreach($faq as $f): ?>
+                                    <?php if($f->is_active == 1 && $f->is_deleted == 0): ?>
+                                        <div class="accrodion">
+                                            <div class="accrodion-title">
+                                                <h4><?php echo $f->title; ?></h4>
+                                            </div>
 
-                                        <div class="accrodion-content">
-                                            <div class="inner">
-                                                <p>We help businesses bring ideas to life in the digital world designing
-                                                    & implementing the technology tools that they need to win. We help
-                                                    business bring ideas to life in the digital wor</p>
+                                            <div class="accrodion-content">
+                                                <div class="inner">
+                                                    <p><?php echo htmlspecialchars($f->content); ?></p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-
-                                    <div class="accrodion active">
-                                        <div class="accrodion-title">
-                                            <h4>What does business consulting do?</h4>
-                                        </div>
-
-                                        <div class="accrodion-content">
-                                            <div class="inner">
-                                                <p>We help businesses bring ideas to life in the digital world designing
-                                                    & implementing the technology tools that they need to win. We help
-                                                    business bring ideas to life in the digital wor</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accrodion">
-                                        <div class="accrodion-title">
-                                            <h4>Can I cancel a shipment after it's been booked?</h4>
-                                        </div>
-
-                                        <div class="accrodion-content">
-                                            <div class="inner">
-                                                <p>We help businesses bring ideas to life in the digital world designing
-                                                    & implementing the technology tools that they need to win. We help
-                                                    business bring ideas to life in the digital wor</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accrodion">
-                                        <div class="accrodion-title">
-                                            <h4>Can you assist with customs clearance procedures?</h4>
-                                        </div>
-
-                                        <div class="accrodion-content">
-                                            <div class="inner">
-                                                <p>We help businesses bring ideas to life in the digital world designing
-                                                    & implementing the technology tools that they need to win. We help
-                                                    business bring ideas to life in the digital wor</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <?php endif; ?>
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
                         </div>
