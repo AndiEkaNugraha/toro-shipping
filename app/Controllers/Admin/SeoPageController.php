@@ -10,7 +10,7 @@ class SeoPageController {
     public function index($user_seo) {
         $seoPage = MetaPage::findAll();
         $user = Auth::user();
-
+       
         if (isset($_SESSION['status']) && $_SESSION['status'] != null) {
             $context = $_SESSION['status'];
             $message = $_SESSION['message'];
@@ -97,6 +97,13 @@ class SeoPageController {
         $update_at = date('Y-m-d H:i:s');
         $update_by = Auth::user()->id;
 
+        if (!empty($_FILES['banner']['name'])) {
+            $bannerPath = MetaPage::uploadFile($_FILES['banner'], 'file/seoPage/');
+            $nameFile = explode('/', $bannerPath);
+            $banner = end($nameFile);
+        }
+
+        $metaPage->banner = $banner??$metaPage->banner;
         $metaPage->order_number = $order??$metaPage->order_number;
         $metaPage->pageName = $pageName??$metaPage->pageName;
         $metaPage->showInNavbar = $showInNavbar??$metaPage->showInNavbar;

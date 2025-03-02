@@ -849,3 +849,10 @@
 [2025-03-01 11:24:39] Error: PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'update_by' at row 1 in C:\Storage\prj\shipping\core\Database.php on line 46
 [2025-03-01 15:21:29] Error: ArgumentCountError: Too few arguments to function App\Controllers\Admin\FaqController::delete(), 1 passed and exactly 2 expected in C:\Storage\prj\shipping\app\Controllers\Admin\FaqController.php on line 169
 [2025-03-01 15:28:35] Error: ArgumentCountError: Too few arguments to function App\Controllers\Admin\FaqController::delete(), 1 passed and exactly 2 expected in C:\Storage\prj\shipping\app\Controllers\Admin\FaqController.php on line 169
+[2025-03-01 16:13:19] Error: ErrorException: Undefined property: App\Models\MetaPage::$url in C:\Storage\prj\shipping\app\Views\partials\_menu.php on line 6
+[2025-03-01 16:13:40] Error: ErrorException: Undefined property: App\Models\MetaPage::$url in C:\Storage\prj\shipping\app\Views\partials\_menu.php on line 6
+[2025-03-01 16:14:51] Error: ErrorException: Undefined property: App\Models\MetaPage::$url in C:\Storage\prj\shipping\app\Views\partials\_menu.php on line 6
+[2025-03-01 16:40:12] Error: ErrorException: Attempt to read property "pageName" on array in C:\Storage\prj\shipping\app\Views\partials\_page-title.php on line 2
+[2025-03-01 16:47:12] Error: ErrorException: Undefined variable $parse_url in C:\Storage\prj\shipping\app\Views\partials\_page-title.php on line 2
+[2025-03-02 04:22:32] Error: ErrorException: Undefined array key "banner" in C:\Storage\prj\shipping\app\Controllers\Admin\SeoPageController.php on line 100
+[2025-03-02 04:31:58] Error: ErrorException: Undefined variable $page_title in C:\Storage\prj\shipping\app\Views\partials\home\banner.php on line 4

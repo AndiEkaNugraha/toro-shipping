@@ -1,10 +1,10 @@
         <!--Start Banner One-->
         <section class="banner-one">
             <div class="banner-one__pattern">
-                <img src="/assets/general/images/pattern/banner-v1-pattern.png" alt="">
+                <img src="/file/seoPage/<?=$banner !== ""  ? $banner : "default/default.jpg"?>" alt="banner">
             </div>
             <div class="banner-one__pattern2">
-                <img src="/assets/general/images/pattern/banner-v1-pattern2.png" alt="#">
+                <img src="/assets/general/images/pattern/banner-v1-pattern2.png" alt="banner">
                 <div class="banner-one__location clearfix">
                     <!-- Start Banner One Location single -->
                     <div class="banner-one__location-single style1">

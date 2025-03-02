@@ -16,9 +16,9 @@
     <!-- Masked Input -->
     <div class="row clearfix">
         <div class="col-md-12">
-            <div class="card">
-                <div class="body">
-                    <form id="formValidation" method="post" novalidate>
+            <form id="formValidation" method="post" novalidate enctype="multipart/form-data">
+                <div class="card">
+                    <div class="body">
                         <?= csrf_token() ?>
                         <div class="form-group">
                             <label>Order</label>
@@ -28,6 +28,16 @@
                             <label>Page Name</label>
                             <input name="pageName" value="<?=$seoPage->pageName??""?>" type="text" class="form-control" required>
                         </div>
+                        <div class="form-group">
+                            <label>Banner</label>
+                            <div class="body col-md-5">
+                                <input name="banner" type="file" class="dropify" data-allowed-file-extensions="jpg png jpeg gif webp" data-default-file="/file/seoPage/<?=$seoPage->banner !== ""  ? $seoPage->banner : "default/default.jpg"?>" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="body">
                         <div class="form-group">
                             <label>Located in</label>
                             <br/>
@@ -41,7 +51,6 @@
                             </label>
                             <p id="error-checkbox"></p>
                         </div>
-                        <hr/>
                         <div class="form-group">
                             <label>Status</label>
                             <br />
@@ -55,6 +64,7 @@
                             </label>
                             <p id="error-radio"></p>
                         </div>
+                        <hr/>
                         <div class="form-group">
                             <label>Meta Title</label>
                             <input name="metaTitle" value="<?=$seoPage->meta_title??""?>" type="text" class="form-control" required>
@@ -63,14 +73,12 @@
                             <label>Meta Description</label>
                             <textarea name="metaDesc" rows="4" class="form-control" required><?=$seoPage->meta_desc??""?></textarea>
                         </div>
-                        <br>
-                        <hr/>
-                        <div class="text-right">
-                            <button type="submit" class="btn btn-dark">Save</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
-            </div>
+                <div class="text-right mb-4">
+                    <button type="submit" class="btn btn-dark">Save</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>

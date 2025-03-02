@@ -15,6 +15,7 @@ class HomeController {
             data: [
                 'meta_title' => $detailPage->meta_title,
                 'meta_description' => $detailPage->meta_desc,
+                'banner' => $detailPage->banner,
                 'pageHome' => true,
                 'faq' => $faq
             ]

@@ -1267,6 +1267,7 @@ animation: spinner 1s infinite linear;
   position: relative;
   display: block;
   margin-left: auto;
+  margin-right: 48px;
 }
 
 .main-header-one__bottom-right {
@@ -1421,7 +1422,7 @@ animation: spinner 1s infinite linear;
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
   padding-block: 27px;
-  padding-inline: 30px;
+  /* padding-inline: 30px; */
   position: relative;
 }
 

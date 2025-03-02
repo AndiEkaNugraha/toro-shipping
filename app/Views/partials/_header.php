@@ -79,7 +79,7 @@
                                     <div class="main-menu__main-menu-box">
                                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                         <?php
-                                            $default_menu_file = partial('_menu');
+                                            $default_menu_file = partial('_menu', ['menu' => metaPage() ]);
                                             if(isset($single_menu_file)&&!empty($single_menu_file)) {
                                                 $default_menu_file = $single_menu_file;
                                             }

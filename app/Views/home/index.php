@@ -1,6 +1,6 @@
 <?php
 
-echo partial('home/banner');
+echo partial('home/banner', ['banner' => $banner]);
 echo partial('home/about');
 echo partial('home/services');
 // echo partial('home/project');

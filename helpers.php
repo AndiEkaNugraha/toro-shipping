@@ -3,6 +3,7 @@ use App\Services\Authorization;
 use Core\View;
 use App\Services\CSRF;
 use App\Models\Contact;
+use App\Models\MetaPage;
 
 if (!function_exists('partial')) {
     function partial(string $template, array $data = []): string {
@@ -43,5 +44,14 @@ if (!function_exists('truncateContent')) {
 if (!function_exists('contact')) {
   function contact() {
     return Contact::findAll();
+  }
+}
+if (!function_exists('metaPage')) {
+  function metaPage() {
+    return MetaPage::findAll();
+  }
+  function metaPageBySeoUrl(): ?MetaPage {
+    $seo_url = parse_url($_SERVER['REQUEST_URI'])['path'];
+    return MetaPage::findBySeoUrl(trim($seo_url, '/'));
   }
 }

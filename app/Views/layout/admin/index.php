@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="/assets/admin/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css">
     <link rel="stylesheet" href="/assets/admin/vendor/nouislider/nouislider.min.css" />
     <link rel="stylesheet" href="/assets/admin/vendor/parsleyjs/css/parsley.css">
+    <link rel="stylesheet" href="/assets/admin/vendor/dropify/css/dropify.min.css">
 <?php endif; ?>
 
 <!-- MAIN CSS -->
@@ -134,6 +135,7 @@
     <script src="/assets/admin/vendor/nouislider/nouislider.js"></script><!-- noUISlider Plugin Js --> 
     <script src="/assets/admin/vendor/parsleyjs/js/parsley.min.js"></script>
     <script src="/assets/admin/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+    <script src="/assets/admin/vendor/dropify/js/dropify.min.js"></script>
     <script>
         $(function() {
             $('#formValidation').parsley();
@@ -155,6 +157,7 @@
     <script src="/assets/admin/js/pages/tables/jquery-datatable.js"></script>
 <?php endif; ?>
 <?php if(isset($form) && $form == true): ?>
+    <script src="/assets/admin/js/pages/forms/dropify.js"></script>
     <script src="/assets/admin/js/pages/forms/advanced-form-elements.js"></script>
 <?php endif; ?>
 
