@@ -30,35 +30,35 @@
                         </div>
                         <div class="form-group">
                             <label>Synopsys</label>
-                            <textarea name="synopsis" class="form-control" required><?=$service->synopsys??""?></textarea>
+                            <textarea name="synopsys" class="form-control" required><?=$service->synopsys??""?></textarea>
                         </div>
                         <div class="form-group">
                             <label>Content</label>
-                            <textarea id="ckeditor"><?=$service->content??""?></textarea> 
+                            <textarea name="content" id="ckeditor"><?=$service->content??""?></textarea> 
                         </div>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="body">
-                        <div class="form-group" style="width: 200px;height: 200px">
+                    <div class="body d-grid" style="gap:10px">
+                        <div class="form-group col" style="width: 200px;">
                             <label>Icon</label>
-                            <input required name="icon" type="file" class="dropify" data-height="200" data-allowed-file-extensions="png" data-default-file="/file/service/<?=isset ($service->banner) && $service->banner !== ""  ? $service->banner : "default/default.jpg"?>" >
+                            <input  name="icon" type="file" class="dropify" data-height="200" data-allowed-file-extensions="png" data-default-file="/file/service/icon/<?=isset ($service->banner) && $service->banner !== ""  ? $service->banner : "../default/default.png"?>" >
                         </div>
                         <div class="d-lg-flex">
                             <div class="form-group col">
                                 <label>Banner</label>
-                                <input required name="banner" type="file" class="dropify" data-height="300" data-allowed-file-extensions="jpg png jpeg gif webp" data-default-file="/file/service/<?=isset ($service->banner) && $service->banner !== ""  ? $service->banner : "default/default.jpg"?>" >
+                                <input  name="banner" type="file" class="dropify" data-height="300" data-allowed-file-extensions="jpg png jpeg gif webp" data-default-file="/file/service/<?=isset ($service->banner) && $service->banner !== ""  ? $service->banner : "default/default.jpg"?>" >
                             </div>
                             <div class="form-group col">
                                 <label>Thumbnail Square</label>
                                 <div class="justify-content-center">
-                                    <input required name="thumbnail" type="file" class="dropify" data-height="300" data-allowed-file-extensions="jpg png jpeg gif webp" data-default-file="/file/service/<?=isset ($service->squereBanner) && $service->squereBanner !== ""  ? $service->squereBanner : "default/default.jpg"?>" >
+                                    <input  name="thumbnail" type="file" class="dropify" data-height="300" data-allowed-file-extensions="jpg png jpeg gif webp" data-default-file="/file/service/<?=isset ($service->squereBanner) && $service->squereBanner !== ""  ? $service->squereBanner : "default/default.jpg"?>" >
                                 </div>
                             </div>
                         </div>
                         <div class="form-group col">
                             <label>File</label>
-                            <input required type="file" class="filepond" name="filepond[]" multiple/>
+                            <input  type="file" class="filepond" name="filepond[]" multiple/>
                         </div>
                     </div>
                 </div>
@@ -76,6 +76,10 @@
                                 <span><i></i>Inactive</span>
                             </label>
                             <p id="error-radio"></p>
+                        </div>
+                        <div class="form-group">
+                            <label>Seo URL</label>
+                            <input name="seo" value="<?=$service->meta_title??""?>" type="text" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label>Meta Title</label>

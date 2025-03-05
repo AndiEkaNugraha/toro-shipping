@@ -17,8 +17,11 @@ class Service extends Model {
   public $icon;
   public $file;
   public $content;
+  public $seo_page;
   public $is_active;
   public $is_deleted;
+  public $meta_title;
+  public $meta_desc;
   public $create_at;
   public $create_by;
   public $update_at;

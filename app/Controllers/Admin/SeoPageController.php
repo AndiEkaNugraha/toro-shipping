@@ -92,10 +92,17 @@ class SeoPageController {
         $showInNavbar = isset($_POST['showInNavbar']) ? 1 : 0;
         $showInFooter = isset($_POST['showInFooter']) ? 1 : 0;
         $status = $_POST['status']??null;
+        $seo = $_POST['seo']??null;
         $metaTitle = $_POST['metaTitle']??null;
         $metaDesc = $_POST['metaDesc']??null;
         $update_at = date('Y-m-d H:i:s');
         $update_by = Auth::user()->id;
+
+        if (!isset($seo) || $seo == "") {
+            $_SESSION['status'] = 'error';
+            $_SESSION['message'] = 'seo is required';
+            Router::redirect("/administrator/$user_seo/seo-page/$id");
+        }
 
         if (!empty($_FILES['banner']['name'])) {
             $bannerPath = MetaPage::uploadFile($_FILES['banner'], 'file/seoPage/');
@@ -109,6 +116,7 @@ class SeoPageController {
         $metaPage->showInNavbar = $showInNavbar??$metaPage->showInNavbar;
         $metaPage->showInFooter = $showInFooter??$metaPage->showInFooter;
         $metaPage->is_active = $status??$metaPage->is_active;
+        $metaPage->seo_page = $seo??$metaPage->seo_page;
         $metaPage->meta_title = $metaTitle??$metaPage->meta_title;
         $metaPage->meta_desc = $metaDesc??$metaPage->meta_desc;
         $metaPage->update_at = $update_at;

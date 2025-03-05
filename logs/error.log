@@ -867,3 +867,13 @@
 [2025-03-04 18:19:10] Error: ErrorException: Undefined array key "files" in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 124
 [2025-03-04 18:20:18] Error: ErrorException: Undefined array key "files" in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 124
 [2025-03-04 18:26:35] Error: ErrorException: Undefined array key "files" in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 124
+[2025-03-05 18:09:48] Error: Exception: Could not connect to the database in C:\Storage\prj\shipping\core\Database.php on line 22
+[2025-03-05 19:32:56] Error: ErrorException: Undefined array key 0 in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 137
+[2025-03-05 19:35:21] Error: ErrorException: Undefined array key 0 in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 137
+[2025-03-05 19:40:26] Error: ErrorException: Undefined array key 0 in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 140
+[2025-03-05 19:44:39] Error: ErrorException: Undefined array key 0 in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 140
+[2025-03-05 19:52:01] Error: TypeError: Core\Model::uploadFile(): Argument #1 ($file) must be of type array, string given, called in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 150 in C:\Storage\prj\shipping\core\Model.php on line 14
+[2025-03-05 20:05:12] Error: ErrorException: explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 164
+[2025-03-05 20:05:57] Error: ErrorException: explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 164
+[2025-03-05 20:25:32] Error: ErrorException: Undefined property: App\Models\Service::$test in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 193
+[2025-03-05 20:28:03] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Faq, bool returned in C:\Storage\prj\shipping\core\Model.php on line 50

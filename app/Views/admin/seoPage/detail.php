@@ -66,6 +66,11 @@
                         </div>
                         <hr/>
                         <div class="form-group">
+                            <label>Seo Url</label>
+                            <input name="seo" value="<?=$seoPage->seo_page??""?>" type="text" class="form-control" required>
+                            <small>jika kosong isi dengan '/'</small>
+                        </div>
+                        <div class="form-group">
                             <label>Meta Title</label>
                             <input name="metaTitle" value="<?=$seoPage->meta_title??""?>" type="text" class="form-control" required>
                         </div>

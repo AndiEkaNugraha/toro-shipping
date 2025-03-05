@@ -117,10 +117,81 @@ class ServicesController {
     }
 
     public function insert($user_seo) {
-        echo "insert\n";
-        var_dump($_POST);
-        echo "files \n";
-        var_dump($_FILES);
+        $order = $_POST['order']??null;
+        $title = $_POST['title']??null;
+        $synopsys = $_POST['synopsys']??null;
+        $content = $_POST['content']??null;
+        $banner = null;
+        $thumb = null;
+        $icon = null;
+        $fileName = [];
+        $status = $_POST['status']??0;
+        $seo = $_POST['seo']??null;
+        $metaTitle = $_POST['metaTitle']??null;
+        $metaDesc = $_POST['metaDesc']??null;
+        $user = Auth::user();
+
+        if (!empty($_FILES['banner']['name'])) {
+            $bannerPath = Service::uploadFile($_FILES['banner'], 'file/service/img/');
+            $nameFile = explode('/', $bannerPath);
+            $banner = end($nameFile);
+        }
+        if (!empty($_FILES['thumbnail']['name'])) {
+            $thumbPath = Service::uploadFile($_FILES['thumbnail'], 'file/service/thumb/');
+            $nameFile = explode('/', $thumbPath);
+            $thumb = end($nameFile);
+        }
+        if (!empty($_FILES['icon']['name'])) {
+            $iconPath = Service::uploadFile($_FILES['icon'], 'file/service/icon/');
+            $nameFile = explode('/', $iconPath);
+            $icon = end($nameFile);
+        }
+        // var_dump($_FILES['filepond']);die;
+        if (!empty($_FILES['filepond']['name'][0] !== "")) {
+            for ($i = 0; $i < count($_FILES['filepond']['name']); $i++) {
+                // Extract data for the current file
+                $fileData = [
+                    'name' => $_FILES['filepond']['name'][$i],
+                    'full_path' => $_FILES['filepond']['full_path'][$i],
+                    'type' => $_FILES['filepond']['type'][$i],
+                    'tmp_name' => $_FILES['filepond']['tmp_name'][$i],
+                    'error' => $_FILES['filepond']['error'][$i],
+                    'size' => $_FILES['filepond']['size'][$i],
+                ];
+        
+                // Now you can use the $fileData array to process each file individually
+                $filePath = Service::uploadFile($fileData, 'file/service/file/');
+                $nameFile = explode('/', $filePath);
+                $uploadedFile = end($nameFile);
+                array_push($fileName, $uploadedFile);
+                
+                // Insert into database or perform other actions with $fileData
+                // ...
+            }
+        }
+
+        $service = [
+            'order_number' => $order,
+            'title' => $title,
+            'synopsys' => $synopsys,
+            'content' => $content,
+            'banner' => $banner??"",
+            'squereBanner' => $thumb??"",
+            'icon' => $icon??"",
+            'file' => json_encode($fileName)??[],
+            'is_active' => $status,
+            'seo_page' => $seo,
+            'meta_title' => $metaTitle,
+            'meta_desc' => $metaDesc,
+            'create_at' => date('Y-m-d H:i:s'),
+            'create_by' => $user->id,
+            'update_by' => "",
+        ];
+
+        $return = Service::create($service);
+        $_SESSION['status'] = 'success';
+        $_SESSION['message'] = 'Service created successfully';
+        Router::redirect('/administrator/'.$user_seo.'/services');
     }
 
     public function update($user_seo, $id) {
