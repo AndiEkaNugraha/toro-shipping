@@ -19,7 +19,7 @@ services:
     expose:
       - "8001"
     volumes:
-      - /home/fisika-uin/data/toro-shipping/public/file:/var/www/html/public/file
+      - /home/ubuntu1/data/toro-shipping/public/file:/var/www/html/public/file
     networks:
       - app_network
 
