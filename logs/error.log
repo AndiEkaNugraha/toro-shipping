@@ -856,3 +856,14 @@
 [2025-03-01 16:47:12] Error: ErrorException: Undefined variable $parse_url in C:\Storage\prj\shipping\app\Views\partials\_page-title.php on line 2
 [2025-03-02 04:22:32] Error: ErrorException: Undefined array key "banner" in C:\Storage\prj\shipping\app\Controllers\Admin\SeoPageController.php on line 100
 [2025-03-02 04:31:58] Error: ErrorException: Undefined variable $page_title in C:\Storage\prj\shipping\app\Views\partials\home\banner.php on line 4
+[2025-03-02 05:50:15] Error: ErrorException: Undefined variable $listFaq in C:\Storage\prj\shipping\app\Views\admin\faq\index.php on line 38
+[2025-03-02 05:56:25] Error: TypeError: App\Models\Faq::insert(): Return value must be of type ?App\Models\Faq, none returned in C:\Storage\prj\shipping\app\Models\Faq.php on line 56
+[2025-03-02 05:57:34] Error: TypeError: App\Models\Faq::insert(): Return value must be of type ?App\Models\Faq, none returned in C:\Storage\prj\shipping\app\Models\Faq.php on line 56
+[2025-03-02 05:59:27] Error: TypeError: App\Models\Faq::insert(): Return value must be of type ?App\Models\Faq, none returned in C:\Storage\prj\shipping\app\Models\Faq.php on line 56
+[2025-03-02 05:59:35] Error: TypeError: App\Models\Faq::insert(): Return value must be of type ?App\Models\Faq, none returned in C:\Storage\prj\shipping\app\Models\Faq.php on line 56
+[2025-03-02 07:31:48] Error: ErrorException: Undefined variable $seoPage in C:\Storage\prj\shipping\app\Views\admin\service\detail.php on line 38
+[2025-03-02 07:32:03] Error: ErrorException: Undefined variable $service in C:\Storage\prj\shipping\app\Views\admin\service\detail.php on line 38
+[2025-03-04 18:18:27] Error: ErrorException: Undefined array key "files" in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 124
+[2025-03-04 18:19:10] Error: ErrorException: Undefined array key "files" in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 124
+[2025-03-04 18:20:18] Error: ErrorException: Undefined array key "files" in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 124
+[2025-03-04 18:26:35] Error: ErrorException: Undefined array key "files" in C:\Storage\prj\shipping\app\Controllers\Admin\ServicesController.php on line 124

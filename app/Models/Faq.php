@@ -22,7 +22,7 @@ class Faq extends Model {
   public static function findById(string $id): ?Faq {
     $db = App::get('database');
     $result = $db->fetch(
-      'SELECT * FROM faq WHERE id = ?', 
+      'SELECT * FROM faq WHERE id = ? AND is_deleted = 0', 
       [$id],
       static::class
     );
@@ -53,6 +53,7 @@ class Faq extends Model {
         $data['userAuthorize']->id
       ]
     );
+    return static::findById($db->lastInsertId());
   }
 
 }

@@ -36,3 +36,7 @@ $router->add('GET', 'administrator/{user_seo}/faq/create', 'Admin\FaqController@
 $router->add('POST', 'administrator/{user_seo}/faq/create', 'Admin\FaqController@insert',['auth']);
 $router->add('GET', 'administrator/{user_seo}/faq/{id}', 'Admin\FaqController@detail',['auth']);
 $router->add('POST', 'administrator/{user_seo}/faq/{id}', 'Admin\FaqController@update',['auth']);
+
+$router->add('GET', 'administrator/{user_seo}/services', 'Admin\ServicesController@index',['auth']);
+$router->add('GET', 'administrator/{user_seo}/services/create', 'Admin\ServicesController@create',['auth']);
+$router->add('POST', 'administrator/{user_seo}/services/create', 'Admin\ServicesController@insert',['auth']);

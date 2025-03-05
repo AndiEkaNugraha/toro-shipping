@@ -208,7 +208,7 @@ Service One
     transition: all 500ms ease;
 }
 
-.service-one__single:hover .icon span::before {
+.service-one__single:hover .icon span::before, .service-one__single:hover .icon span {
     transform: rotateY(180deg);
     transition-delay: 0.1s;
 }

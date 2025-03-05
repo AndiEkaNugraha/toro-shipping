@@ -30,7 +30,7 @@
 
                                             <div class="accrodion-content">
                                                 <div class="inner">
-                                                    <p><?php echo htmlspecialchars($f->content); ?></p>
+                                                    <?php echo html_entity_decode($f->content); ?>
                                                 </div>
                                             </div>
                                         </div>

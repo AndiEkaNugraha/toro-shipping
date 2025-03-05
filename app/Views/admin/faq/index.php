@@ -27,7 +27,6 @@
                                     <th>No</th>
                                     <th>Order</th>
                                     <th>Title</th>
-                                    <th>Content</th>
                                     <th>Status</th>
                                     <th>Created At</th>
                                     <th>Updated At</th>
@@ -40,7 +39,6 @@
                                         <td class="text-center"><?=$key + 1?></td>
                                         <td class="text-center"><?=$faq->order_number??""?></td>
                                         <td><?=truncateContent($faq->title??"", 50)?></td>
-                                        <td><?=truncateContent($faq->content??"", 50)?></td>
                                         <td class="text-center"><p class="badge <?=$faq->is_active?"badge-primary":"badge-danger"?> mb-0"><?=$faq->is_active?"Active":"Inactive"?></p></td>
                                         <td><?=$faq->create_at??""?></td>
                                         <td><?=$faq->update_at??""?></td>

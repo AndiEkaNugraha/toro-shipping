@@ -31,7 +31,7 @@
                         <div class="form-group">
                             <label>Content</label>
                             <div class="summernote"><?=$faq->content??""?></div>
-                            <input type="hidden" value="<?=$faq->content??""?>" name="content" id="content" required>
+                            <input type="hidden" value="<?=htmlspecialchars($faq->content??"")?>" name="content" id="content" required>
                         </div>
                         <br/>
                         <div class="form-group">

@@ -1,19 +1,28 @@
 <?php return array(
     'root' => array(
-        'name' => 'goodb/lab-connect-2',
+        'name' => 'goodb/toro-shipping',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'edbea50f971f8b0447248c6ed3c92c0237d63f70',
+        'reference' => '2d1003ab6ee70db5b55acb872d5a909e4befe8fd',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'goodb/lab-connect-2' => array(
+        'enyo/dropzone' => array(
+            'pretty_version' => 'v5.9.3',
+            'version' => '5.9.3.0',
+            'reference' => '286b2dc1f1195bd12169e4c9d5f91cfbe46e245f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../enyo/dropzone',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'goodb/toro-shipping' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'edbea50f971f8b0447248c6ed3c92c0237d63f70',
+            'reference' => '2d1003ab6ee70db5b55acb872d5a909e4befe8fd',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

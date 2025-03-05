@@ -18,6 +18,9 @@
 <?php if (isset($summerNote) && $summerNote == true ) : ?>
     <link rel="stylesheet" href="/assets/admin/vendor/summernote/dist/summernote.css"/>
 <?php endif; ?>
+<?php if(isset($filepond) && $filepond == true ) : ?>
+    <link rel="stylesheet" href="/assets/admin/vendor/filepond/dist/filepond.min.css">
+<?php endif; ?>
 
 <?php if(isset($table) && $table == true): ?>
     <link rel="stylesheet" href="/assets/admin/vendor/jquery-datatable/dataTables.bootstrap4.min.css">
@@ -100,6 +103,7 @@
                 <ul id="main-menu" class="metismenu">
                     <li class="<?= $page == "dashboard"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>"><i class="icon-home"></i><span>Dashboard</span></a></li>
                     <li class="<?= $page == "seoPage"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/seo-page"><i class="icon-puzzle"></i><span>Seo Page</span></a></li>
+                    <li class="<?= $page == "services"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/services"><i class="icon-support"></i><span>Services</span></a></li>
                     <li class="<?= $page == "contact"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/contact"><i class="icon-book-open"></i><span>Contact</span></a></li>
                     <li class="<?= $page == "faq"?"active":""; ?>"><a href="/administrator/<?= $userAuthorize->seo_name??"" ?>/faq"><i class="icon-question"></i><span>FAQ</span></a></li>
                 </ul>
@@ -114,6 +118,7 @@
 <!-- Javascript -->
 <script src="/assets/admin/bundles/libscripts.bundle.js"></script>    
 <script src="/assets/admin/bundles/vendorscripts.bundle.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
 <?php if(isset($table) && $table == true): ?>
     <script src="/assets/admin/bundles/datatablescripts.bundle.js"></script>
@@ -142,16 +147,55 @@
         });
     </script>
 <?php endif; ?>
+<?php if(isset($ckeditor) && $ckeditor == true): ?>
+    <script src="/assets/admin/vendor/ckeditor/ckeditor.js"></script><!-- Ckeditor --> 
+<?php endif; ?>
+<?php if(isset($filepond) && $filepond == true ) : ?>
+    <script src="/assets/admin/vendor/filepond/dist/filepond.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const inputElement = document.querySelector('input.filepond');
+            const pond = FilePond.create(inputElement, {
+                allowMultiple: true,
+                storeAsFile: true,
+            });
+            const existingFileUrls = [];
+
+        // Fungsi untuk menambahkan file ke FilePond
+        const addFilesToPond = async (urls) => {
+            for (const url of urls) {
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok for ' + url);
+                    }
+                    const blob = await response.blob(); // Mengubah response menjadi Blob
+                    const fileName = url.split('/').pop(); // Mengambil nama file dari URL
+                    const file = new File([blob], fileName, { type: response.headers.get('Content-Type') }); // Membuat objek File
+                    pond.addFile(file); // Menambahkan file ke FilePond
+                } catch (error) {
+                    console.error('There was a problem with the fetch operation for ' + url + ':', error);
+                }
+            }
+        };
+
+        // Menambahkan file yang sudah ada
+        addFilesToPond(existingFileUrls);
+        });
+    </script>
+<?php endif; ?>
 
 <script src="/assets/admin/vendor/sweetalert/sweetalert.min.js"></script><!-- SweetAlert Plugin Js --> 
 <script src="/assets/admin/js/pages/ui/dialogs.js"></script>
 <script src="/assets/admin/vendor/toastr/toastr.js"></script>
 
-
 <script src="/assets/admin/bundles/mainscripts.bundle.js"></script>
 
 <?php if (isset($summerNote) && $summerNote == true ) : ?>
     <script src="/assets/admin/vendor/summernote/dist/summernote.js"></script>
+<?php endif; ?>
+<?php if (isset($ckeditor) && $ckeditor == true ) : ?>
+    <script src="/assets/admin/js/pages/forms/editors.js"></script>
 <?php endif; ?>
 <?php if(isset($table) && $table == true): ?>
     <script src="/assets/admin/js/pages/tables/jquery-datatable.js"></script>
@@ -169,6 +213,5 @@
     toastr['<?=$context??"info"?>']('<?=$message??""?>');
 </script>
 <?php endif; ?>
-
 </body>
 </html>
